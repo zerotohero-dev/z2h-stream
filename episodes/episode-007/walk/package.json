@@ -1,0 +1,12 @@
+{
+  "name": "walk",
+  "version": "0.5.0",
+  "description": "A Promise-based sample directory walker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
+  "license": "MIT"
+}
