@@ -1,0 +1,9 @@
+Links we shared and discussed in this episode
+
+* https://developers.google.com/speed/docs/insights/v5/get-started
+* https://codepen.io/johanmouchet/pen/qprOGW
+* https://en.wikipedia.org/wiki/Tail_call
+* https://designshack.net/articles/css/12-fun-css-text-shadows-you-can-copy-and-paste/
+* https://gist.github.com/paulirish/1579671
+* https://pinetools.com/
+* https://explodingkittens.com/
