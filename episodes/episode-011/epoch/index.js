@@ -4,6 +4,7 @@
   const EPOCH_TARGET = 1600000000000;
   const DELTA = 30500000;
   const AUDIO_RETRY_INTERVAL_MS = 500;
+  const AUDIO_URL = './celebration.mp3';
   // #endregion
 
   // #region DOM Helpers
@@ -14,13 +15,11 @@
   const show = (el) => el.style.display = '';
   // #endregion
 
-  const audio = window.Audio ? new Audio('./celebration.mp3') : null;
-
   const showAnimation = () => {
     const popper = clsf('party-popper');
     const cannon = clsf('cannon');
-	show(popper);
-	show(cannon);
+    show(popper);
+    show(cannon);
   };
 
   const displayGreetingInHeading = () => {
@@ -29,6 +28,7 @@
   };
 
   let audioRetryTimerId;
+  const audio = window.Audio ? new Audio(AUDIO_URL) : null;
 
   const playAudio = () => {
     if (!audio) {return;}
