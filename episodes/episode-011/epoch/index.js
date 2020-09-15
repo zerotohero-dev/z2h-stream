@@ -1,60 +1,71 @@
-// // IIFE: Immediately-Invoking Function Expression
-// (function(w) {
-//     console.log(w);
-// }(window))
-
-
-
-
 {
+  // #region Configuration
+  const EPOCH_GREETING = 'Hello epoch 16 Trillion 🎊';
   const EPOCH_TARGET = 1600000000000;
   const DELTA = 30500000;
-  const EPOCH_GREETING = 'Hello epoch 16 Trillion 🎊'
+  const AUDIO_RETRY_INTERVAL_MS = 500;
+  // #endregiong
+
+  // #region DOM Helpers
+  const id = (i) => document.getElementById(i);
+  const cls = (c) => document.getElementsByClassName(c);
+  const tag = (t) => document.getElementsByTagName(t);
+  const clsf = (s) => cls(s)[0];
+  const tagf = (s) => tag(s)[0];
+  const hide = (el) => el.style.display = 'none';
+  const show = (el) => el.style.display = '';
+  // #endregion
 
   const audio = window.Audio ? new Audio('./celebration.mp3') : null;
 
   const showAnimation = () => {
-    const popper = document.getElementsByClassName('party-popper')[0];
-    const cannon = document.getElementsByClassName('cannon')[0];
-    popper.style.display = "";
-    cannon.style.display = "";
+    const popper = clsf('party-popper');
+    const cannon = clsf('cannon');
+	show(popper);
+	show(cannon);
   };
 
   const displayGreetingInHeading = () => {
-    const heading  = document.getElementsByTagName('h1')[0]
+    const heading  = tagf('h1');
     heading.innerText = EPOCH_GREETING;
   };
 
+  let audioRetryTimerId;
+
   const playAudio = () => {
     if (!audio) {return;}
+
     audio.play()
-      .then(() => {console.log(EPOCH_GREETING)})
+      .then(() => {console.log(EPOCH_GREETING);})
       .catch(err => {
         void err;
-        setTimeout(loop, 500);
+		clearTimeout(audioRetryTimerId);
+        audioRetryTimerId = setTimeout(loop, AUDIO_RETRY_INTERVAL_MS);
       });
   };
 
   displayTimeLeftInHeading = (now) => {
-    const heading  = document.getElementsByTagName('h1')[0];
+    const heading  = tagf('h1');
     const diff = EPOCH_TARGET + DELTA - now;
-    heading.innerText = (diff);
+
+    heading.innerText = `${diff}`;
   };
 
+  // #region Loop
   const loop = () => {
     const now = +(new Date());
-    const notTimeYet = now < EPOCH_TARGET + DELTA;
 
+    const notTimeYet = now < EPOCH_TARGET + DELTA;
     if (notTimeYet) {
       displayTimeLeftInHeading(now);
       requestAnimationFrame(loop);
       return;
     }
 
-    showAnimation();
     displayGreetingInHeading();
+    showAnimation();
     playAudio();
   };
-
   loop();
+  // #endregion
 }
