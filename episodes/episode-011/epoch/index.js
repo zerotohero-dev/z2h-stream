@@ -4,7 +4,7 @@
   const EPOCH_TARGET = 1600000000000;
   const DELTA = 30500000;
   const AUDIO_RETRY_INTERVAL_MS = 500;
-  // #endregiong
+  // #endregion
 
   // #region DOM Helpers
   const cls = (c) => document.getElementsByClassName(c);
