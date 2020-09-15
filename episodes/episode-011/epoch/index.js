@@ -7,12 +7,10 @@
   // #endregiong
 
   // #region DOM Helpers
-  const id = (i) => document.getElementById(i);
   const cls = (c) => document.getElementsByClassName(c);
   const tag = (t) => document.getElementsByTagName(t);
   const clsf = (s) => cls(s)[0];
   const tagf = (s) => tag(s)[0];
-  const hide = (el) => el.style.display = 'none';
   const show = (el) => el.style.display = '';
   // #endregion
 
@@ -39,7 +37,7 @@
       .then(() => {console.log(EPOCH_GREETING);})
       .catch(err => {
         void err;
-		clearTimeout(audioRetryTimerId);
+        clearTimeout(audioRetryTimerId);
         audioRetryTimerId = setTimeout(loop, AUDIO_RETRY_INTERVAL_MS);
       });
   };
