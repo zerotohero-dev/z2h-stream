@@ -1,4 +1,13 @@
-Links we shared and discussed in this episode
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
 
 * https://developers.google.com/speed/docs/insights/v5/get-started
 * https://codepen.io/johanmouchet/pen/qprOGW

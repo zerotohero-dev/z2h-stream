@@ -1,0 +1,22 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://go-proverbs.github.io/
+* https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh
+* https://parceljs.org/
+* https://parceljs.org/getting_started.html
+* https://www.typescriptlang.org/docs/handbook/basic-types.html
+* https://en.wikipedia.org/wiki/Continuation-passing_style
+* https://wiki.c2.com/?ContinuationPassingStyle
+* https://medium.com/lambdaside/on-the-continuation-passing-style-and-its-role-in-fp-d07f151b6c5c
+* https://vimeo.com/
+* https://developer.vimeo.com/
+* https://www.rev.com/
