@@ -11,3 +11,6 @@
 .idea
 *\.swp
 /episodes/episode-011/epoch/celebration.mp3
+.DS_Store
+.cache
+dist

@@ -12,7 +12,8 @@
 How to run this app:
 
 * Run `parcel index.html` at the project root.
-* Make sure you have a `celebration.mp3` file in the `./dist` folder.
+* Make sure you have a `unicorn.png` file in the `./dist` folder 
+  (*you can copy it from the folder where this README resides in*)
 
 That should be it :)
 
