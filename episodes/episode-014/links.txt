@@ -1,0 +1,14 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://2ality.com/2015/10/why-tdz.html
+* https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
+* https://developer.mozilla.org/en-US/docs/Web/API/Element/getClientRects
