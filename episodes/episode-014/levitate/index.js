@@ -36,10 +36,10 @@ const draw = (deltaY) => {
   );
 };
 
-let v0 = 0;
-let t0 = 0;
-let tt = 0;
-let acceleration = 512 / 1000000; // pixels per millisecond^2
+let v0 = 0; // pixels per milliseconds
+let t0 = 0; // milliseconds
+let tt = 0; // milliseconds
+let acceleration = (512/1000000); // pixels per millisecond^2
 
 const distance = (t) => {return v0*t + 0.5*acceleration*t*t;}
 const velocity = (t) => {return v0 + acceleration*t;}
@@ -54,8 +54,8 @@ const onDocumentClick = (evt) => {
   tt = 0;
 
   acceleration = v0 >= 0 ?
-    -(1024 / 1000000) :
-    -(512 / 1000000);
+    -(1024/1000000) :
+    -(512/1000000);
 
   clearTimeout(tid);
   tid = setTimeout(() => {
