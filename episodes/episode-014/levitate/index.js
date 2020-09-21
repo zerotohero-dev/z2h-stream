@@ -45,7 +45,9 @@ const distance = (t) => {return v0*t + 0.5*acceleration*t*t;}
 const velocity = (t) => {return v0 + acceleration*t;}
 
 let tid;
-document.addEventListener('click', () => {
+const onDocumentClick = (evt) => {
+  void evt;
+
   y0 = y0 + distance(tt);
   v0 = velocity(tt);
   t0 = 0;
@@ -63,7 +65,8 @@ document.addEventListener('click', () => {
     tt = 0;
     acceleration = (512 / 1000000);
   }, 512);
-});
+};
+document.addEventListener('click', onDocumentClick, false);
 
 const loop = () => {
   const now = +(new Date());
