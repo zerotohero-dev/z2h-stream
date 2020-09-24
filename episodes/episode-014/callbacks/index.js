@@ -47,7 +47,7 @@
 
 {
   const run = async () => {
-    const data = await downloadImage(data)
+    const data = await downloadImage(data);
     resize(data);
   };
 }
