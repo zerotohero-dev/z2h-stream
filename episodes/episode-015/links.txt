@@ -9,6 +9,12 @@
 
 Links we shared and discussed in this episode:
 
-* https://2ality.com/2015/10/why-tdz.html
-* https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
-* https://developer.mozilla.org/en-US/docs/Web/API/Element/getClientRects
+* https://phaser.io/
+* https://academy.zerotohero.dev/community/javascript--game
+* https://en.wikipedia.org/wiki/Translation_of_axes
+* http://www.mathematicsdictionary.com/english/vmd/full/t/translationofaxes.htm
+* https://doubleroot.in/lessons/coordinate-geometry-basics/translation-of-axes/
+* https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+* https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
+* http://http://www.cupcakeipsum.com/
+
