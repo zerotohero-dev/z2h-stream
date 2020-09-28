@@ -12,3 +12,6 @@ Links we shared and discussed in this episode:
 * https://girlswhocode.com/
 * https://monodraw.helftone.com/
 * https://prettier.io/docs/en/webstorm.html
+* https://en.wikipedia.org/wiki/Kaizen
+* https://aws.amazon.com/workspaces/
+* https://www.teradici.com/what-is-pcoip
