@@ -9,8 +9,8 @@
  *  (& )`   (,((,((;( ))\,
  */
 
-const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext('2d');
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
 
 const resizeCanvas = () => {
   canvas.width = 480;
@@ -29,13 +29,11 @@ resizeCanvas();
 
 const init = () => {
   resizeCanvas();
-  window.addEventListener('resize', resizeCanvas, false);
-  return {canvas, ctx};
+  window.addEventListener("resize", resizeCanvas, false);
+  return { canvas, ctx };
 };
 
-export {
-  init
-};
+export { init };
 
 // First I want to initialize this canvas objet
 // and export the ctx as a result of our initialization.

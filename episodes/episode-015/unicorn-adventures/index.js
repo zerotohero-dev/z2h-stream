@@ -9,47 +9,47 @@
  *  (& )`   (,((,((;( ))\,
  */
 
-import { init } from './game';
+import { init } from "./game";
 
-import unicorn from './objects/unicorn';
-import scene from './objects/scene';
+import unicorn from "./objects/unicorn";
+import scene from "./objects/scene";
 
 import { distance, velocity, bgShift } from "./engine";
 
-console.log('begin index');
+console.log("begin index");
 
-const {canvas, ctx} = init();
+const { canvas, ctx } = init();
 
-let y0 = (canvas.height/2) - (unicorn.height*2);
+let y0 = canvas.height / 2 - unicorn.height * 2;
 
 const unicornOffset = 16;
 
 // TODO: modularize this code.
 const draw = (deltaY) => {
-  ctx.fillStyle = '#c0d0e0';
+  ctx.fillStyle = "#c0d0e0";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   const offset = bgShift();
 
-  console.log('offset', offset);
+  console.log("offset", offset);
 
-  ctx.drawImage(
-    scene.image,
-    offset, 0,
-    scene.width, scene.height
-  );
+  ctx.drawImage(scene.image, offset, 0, scene.width, scene.height);
   ctx.drawImage(
     scene.image,
     // this is a magic number.
     // needs to be computed from somewhere.
-    1920 + offset, 0,
-    scene.width, scene.height
+    1920 + offset,
+    0,
+    scene.width,
+    scene.height
   );
 
   ctx.drawImage(
     unicorn.image,
-    unicornOffset, y0 + deltaY,
-    unicorn.width, unicorn.height
+    unicornOffset,
+    y0 + deltaY,
+    unicorn.width,
+    unicorn.height
   );
 };
 
@@ -66,23 +66,23 @@ const shiftCoordinates = () => {
 };
 
 let tid;
-document.addEventListener('click', () => {
+document.addEventListener("click", () => {
   shiftCoordinates();
 
-  acceleration = v0 >= 0 ?
-    -(1024 / 1000000) :
-    -(512 / 1000000);
+  acceleration = v0 >= 0 ? -(1024 / 1000000) : -(512 / 1000000);
 
   clearTimeout(tid);
   tid = setTimeout(() => {
     shiftCoordinates();
-    acceleration = (512 / 1000000);
+    acceleration = 512 / 1000000;
   }, 512);
 });
 
 const loop = () => {
-  const now = +(new Date());
-  if (t0 === 0) {t0 = now;}
+  const now = +new Date();
+  if (t0 === 0) {
+    t0 = now;
+  }
 
   tt = now - t0;
 
@@ -94,36 +94,18 @@ let remaining = 2;
 
 unicorn.image.onload = () => {
   remaining--;
-  console.log('loaded image', remaining);
-  if (remaining <= 0) {loop();}
+  console.log("loaded image", remaining);
+  if (remaining <= 0) {
+    loop();
+  }
 };
 
 scene.image.onload = () => {
   remaining--;
-  console.log('loaded bg image', remaining);
-  if (remaining <= 0) {loop();}
+  console.log("loaded bg image", remaining);
+  if (remaining <= 0) {
+    loop();
+  }
 };
 
-console.log('end index');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("end index");
