@@ -24,7 +24,6 @@ ready()
 
 ready().then(listen);
 
-// TODO: is there a race condition?
 let userInteractedAlready = false;
 document.addEventListener('click', () => {
   if (userInteractedAlready) {
