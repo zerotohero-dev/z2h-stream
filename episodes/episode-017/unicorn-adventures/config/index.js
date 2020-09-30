@@ -24,3 +24,4 @@ export const INTERACTIVE_CHECK_TIMEOUT_MS = 300;
 export const URL_IMG_BG = '/background.png';
 export const URL_IMG_UNICORN = '/unicorn.png';
 export const COLOR_BG_DEFAULT = '#c0d0e0';
+export const ASSETS_LOAD_TIMEOUT_MS = 5000;

@@ -18,10 +18,17 @@ import { paintFirstScene } from './paint';
 
 const run = async () => {
   await ready();
-  await paintFirstScene();
+  paintFirstScene();
   await listen();
   await interactive();
   loop();
 };
 
-run().then(() => {}, () => {});
+run().then(
+  () => {
+    console.log('Unicorn Adventures began.');
+  },
+  () => {
+    console.error('We’ve had a problem.');
+  }
+);

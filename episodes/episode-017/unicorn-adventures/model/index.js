@@ -9,41 +9,37 @@
  *  (& )`   (,((,((;( ))\,
  */
 
-import {getCanvas} from "../game";
-import {distance, velocity} from "../engine";
-import {ACC_GRAVITY} from "../config";
+import { distance, velocity } from '../engine';
+import { ACC_GRAVITY } from '../config';
+import { canvas } from '../objects/canvas';
 
-const canvas = getCanvas();
-
-let y0 = canvas.height / 2; // - unicorn.height * 2;
-let v0 = 0;
-let t0 = 0;
-let tt = 0;
+let y0 = window.innerHeight / 2; // pixels
+let v0 = 0; // pixels / millisecond
+let t0 = 0; // millisecond
+let tt = 0; // millisecond
 let g = ACC_GRAVITY; // pixels per millisecond^2
 
 const gameData = () => ({
-  y0, v0, t0, tt, g
+  y0,
+  v0,
+  t0,
+  tt,
+  g
 });
 
-const setV0 = (value) => {v0 = value;};
-const setY0 = (value) => {y0 = value;};
-const setT0 = (value) => {t0 = value;};
-const setTT = (value) => {tt = value;};
-const setG = (value) => {g = value};
-
 const tick = () => {
-  const { t0 } = gameData();
   const now = +new Date();
-  if (t0 === 0) {setT0(now);}
-  setTT(now - (gameData()).t0);
+  if (t0 === 0) {
+    t0 = now;
+  }
+  tt = now - gameData().t0;
 };
 
 const shiftCoordinates = () => {
-  const { y0, v0, tt, g } = gameData();
-  setY0(y0 + distance(v0, g, tt));
-  setV0(velocity(v0, g, tt))
-  setT0(0);
-  setTT(0);
+  y0 = y0 + distance(v0, g, tt);
+  v0 = velocity(v0, g, tt);
+  t0 = 0;
+  tt = 0;
 };
 
 const getInitialVelocity = () => {
@@ -66,7 +62,9 @@ const getInitialTopOffset = () => {
   return y0;
 };
 
-const setGravity = (a1) => { setG(a1); };
+const setGravity = (newG) => {
+  g = newG;
+};
 
 export {
   tick,

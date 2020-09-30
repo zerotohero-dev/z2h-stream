@@ -9,4 +9,5 @@
 
 Links we shared and discussed in this episode:
 
-* TBD
+* https://prettier.io/docs/en/webstorm.html
+* https://xscopeapp.com
