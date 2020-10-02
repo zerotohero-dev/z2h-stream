@@ -9,22 +9,24 @@
  *  (& )`   (,((,((;( ))\,
  */
 
-import { ACC_GRAVITY, ACC_PUSH_HIGH, ACC_PUSH_LOW, FLAP_TIMEOUT_MS, SCENE_WIDTH } from '../config';
-import { getInitialVelocity, setGravity, shiftCoordinates } from '../model';
+import {
+  BG_SHIFT_SKIP,
+  FLAP_SHIFT,
+  FLAP_TIMEOUT_MS,
+  RAGE_INCREMENT,
+  RAGE_MULTIPLIER_INITIAL,
+  SCENE_WIDTH
+} from '../config';
+import { shiftCoordinates } from '../model';
 
-const distance = (v0, a, t) => {
-  return v0 * t + 0.5 * a * t * t;
-};
-
-const velocity = (v0, a, t) => {
-  return v0 + a * t;
-};
+const distance = (v0, a, t) => v0 * t + 0.5 * a * t * t;
+const velocity = (v0, a, t) => v0 + a * t;
 
 let shift = 0;
 let skip = 0;
 const bgShift = () => {
   skip++;
-  skip = skip % 3;
+  skip = skip % BG_SHIFT_SKIP;
 
   if (skip === 0) {
     shift--;
@@ -35,15 +37,14 @@ const bgShift = () => {
 };
 
 let tid;
+let multiplier = RAGE_MULTIPLIER_INITIAL;
 const flap = () => {
-  shiftCoordinates();
-
-  setGravity(getInitialVelocity() >= 0 ? ACC_PUSH_HIGH : ACC_PUSH_LOW);
+  shiftCoordinates(FLAP_SHIFT * multiplier);
+  multiplier = multiplier + RAGE_INCREMENT;
 
   clearTimeout(tid);
   tid = setTimeout(() => {
-    shiftCoordinates();
-    setGravity(ACC_GRAVITY);
+    multiplier = RAGE_MULTIPLIER_INITIAL;
   }, FLAP_TIMEOUT_MS);
 };
 

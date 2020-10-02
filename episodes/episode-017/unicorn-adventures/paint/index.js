@@ -18,8 +18,6 @@ import { canvas, ctx } from '../objects/canvas';
 import { COLOR_BG_DEFAULT, GAME_HEIGHT, GAME_WIDTH, SCENE_WIDTH, UNICORN_OFFSET } from '../config';
 import { getInitialTopOffset, getInitialVelocity, getAcceleration, getTotalTime } from '../model';
 
-import { init } from '../game';
-
 const drawBackground = (ctx) => {
   const offset = bgShift();
   ctx.drawImage(scene.image, offset, 0, scene.width, scene.height);
