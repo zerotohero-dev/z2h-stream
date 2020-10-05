@@ -1,0 +1,21 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://daisydiskapp.com/
+* https://mockoon.com/
+* https://beeceptor.com/
+* https://wiki.c2.com/?CouplingAndCohesion
+* https://en.wikipedia.org/wiki/Coupling_(computer_programming)
+* https://en.wikipedia.org/wiki/Cohesion_(computer_science)
+* https://css-tricks.com/the-differing-perspectives-on-css-in-js/
+* https://opsbeacon.com/
+* https://docs.microsoft.com/en-us/windows/terminal/panes
+* https://github.com/fatih/vim-go
