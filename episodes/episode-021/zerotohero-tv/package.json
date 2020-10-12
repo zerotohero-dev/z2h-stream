@@ -1,0 +1,16 @@
+{
+  "name": "z2h-tv-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/ui": "^0.6.2",
+    "tailwindcss": "^1.8.13"
+  }
+}

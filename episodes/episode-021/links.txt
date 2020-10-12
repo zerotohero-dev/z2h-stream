@@ -1,0 +1,17 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://acss.io/
+* https://getbootstrap.com/
+* https://tailwindcss.com/
+* https://tailwindui.com/
+* https://github.com/Code52/carnac
+* https://www.autohotkey.com/
