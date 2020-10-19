@@ -11,7 +11,6 @@
 
 import { distance, velocity } from '../engine';
 import { ACC_GRAVITY } from '../config';
-import { canvas } from '../objects/canvas';
 
 let y0 = window.innerHeight / 2; // pixels
 let v0 = 0; // pixels / millisecond

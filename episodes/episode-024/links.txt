@@ -1,0 +1,14 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://crontab.guru/
+* https://zerotohero.dev/learn/javascript/section/3/lesson/7/dissecting-a-y-combinator
+* https://en.wikipedia.org/wiki/Fixed-point_combinator
