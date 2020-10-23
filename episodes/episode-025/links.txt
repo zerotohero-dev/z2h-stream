@@ -1,0 +1,21 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://github.com/developit/workerize
+* https://github.com/tannerlinsley/react-virtual
+* http://phaser.io/
+* https://ohmyz.sh/
+* https://github.com/ohmyzsh/ohmyzsh
+* https://windowsterminalthemes.dev/
+* https://github.com/v0lkan/ama/issues/9
+* https://github.com/v0lkan/ama
+* https://patents.google.com/patent/US9535574B2/en
+* https://go-proverbs.github.io/

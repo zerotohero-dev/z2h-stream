@@ -1,0 +1,16 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* http://phaser.io/
+* https://photonstorm.github.io/phaser3-docs/Phaser.Core.Events.html
+* https://plato.stanford.edu/entries/curry-paradox
+* https://en.wikipedia.org/wiki/Consistency
+* https://github.com/darkreader/darkreader

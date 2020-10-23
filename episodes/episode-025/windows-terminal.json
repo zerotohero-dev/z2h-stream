@@ -1,0 +1,92 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+  "copyOnSelect": false,
+  "copyFormatting": false,
+  "profiles": {
+    "defaults": {
+      "colorScheme": "Monokai Octagon",
+      "cursorShape": "vintage",
+      "fontSize": 18,
+      "fontWeight": "light",
+      "fontFace": "Comic Sans Ms",
+      "source": "Windows.Terminal.Wsl"
+    },
+    "list": [
+      {
+        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+        "hidden": false,
+        "name": "Ubuntu-20.04",
+        "fontFace": "PragmataPro Mono",
+        "useAcrylic": true,
+        "acrylicOpacity": 0.5,
+        "source": "Windows.Terminal.Wsl"
+      },
+      {
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "name": "Windows PowerShell",
+        "commandline": "powershell.exe",
+        "fontFace": "PragmataPro Mono",
+        "useAcrylic": true,
+        "acrylicOpacity": 0.5,
+        "hidden": false
+      },
+      {
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "name": "Command Prompt",
+        "commandline": "cmd.exe",
+        "fontFace": "PragmataPro Mono",
+        "useAcrylic": true,
+        "acrylicOpacity": 0.5,
+        "hidden": false
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": false,
+        "name": "Azure Cloud Shell",
+        "fontFace": "Operator Mono Ssm Light",
+        "useAcrylic": true,
+        "acrylicOpacity": 0.5,
+        "source": "Windows.Terminal.Azure"
+      }
+    ]
+  },
+
+  "schemes": [
+    {
+      "name": "Monokai Octagon",
+      "black": "#000000",
+      "red": "#d81e00",
+      "green": "#5ea702",
+      "yellow": "#cfae00",
+      "blue": "#427ab3",
+      "purple": "#89658e",
+      "cyan": "#00a7aa",
+      "white": "#dbded8",
+      "brightBlack": "#686a66",
+      "brightRed": "#f54235",
+      "brightGreen": "#99e343",
+      "brightYellow": "#fdeb61",
+      "brightBlue": "#84b0d8",
+      "brightPurple": "#bc94b7",
+      "brightCyan": "#37e6e8",
+      "brightWhite": "#f1f1f0",
+      "background": "#282a3a",
+      "foreground": "#eaf2f1"
+    }
+  ],
+
+  "keybindings": [
+    { "command": { "action": "copy", "singleLine": false }, "keys": "ctrl+c" },
+    { "command": "paste", "keys": "ctrl+v" },
+    { "command": "find", "keys": "ctrl+shift+f" },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "alt+shift+d"
+    }
+  ]
+}
