@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--
+/*
+ *  \
+ *  \\,
+ *   \\\,^,.,,.                    “Zero to Hero”
+ *   ,;7~((\))`;;,,               <zerotohero.dev>
+ *   ,(@') ;)`))\;;',    stay up to date, be curious: learn
+ *    )  . ),((  ))\;,
+ *   /;`,,/7),)) )) )\,,
+ *  (& )`   (,((,((;( ))\,
+ */
+-->
+  <head>
+    <title>DOM Table API Sample</title>
+  </head>
+  <body>
+    <script>
+      const table = document.createElement("table");
+      const tbody = document.createElement("tbody");
+      table.appendChild(tbody);
+
+      for (let i = 0; i < 9; i++) {
+        tbody.insertRow(i);
+
+        for (let j = 0; j < 2; j++) {
+          tbody.rows[i].insertCell(j);
+
+          tbody.rows[i].cells[j].appendChild(
+            document.createTextNode(`Row ${i + 1} Cell ${j + 1}`)
+          );
+        }
+      }
+
+      table.createCaption();
+      table.caption.appendChild(document.createTextNode("A Dynamic Table"));
+
+      document.body.appendChild(table);
+    </script>
+  </body>
+</html>

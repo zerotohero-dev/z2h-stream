@@ -1,0 +1,27 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://www.twitch.tv/codephobia
+* https://monokai.pro/
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+* https://gohugo.io/
+* https://github.com/amimof/huego
+* https://github.com/lucasb-eyer/go-colorful
+* https://github.com/hajimehoshi/go-mp3
+* https://github.com/gempir/go-twitch-irc
+* https://github.com/aristocratos/bpytop
+* https://github.com/nicolargo/glance
+* https://academy.zerotohero.dev/community/testing--user-testing
+* https://academy.zerotohero.dev/community/testing--load-testing
+* https://academy.zerotohero.dev/community/learn--testing
+* https://academy.zerotohero.dev/community/javascript--testing
+* https://jestjs.io/
+* https://github.com/testing-library/react-testing-library
