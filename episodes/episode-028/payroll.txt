@@ -1,0 +1,51 @@
+
+Q:
+“How can I create a payroll system in pseudocode?”
+
+First, search for the data entity model for a payroll system on the web.
+Try to understand what kind of entities you need, and how those entities
+relate to each other—after that, it’ll be clearer for you to define what kinds
+of data you need, and what types of functions you might need to implement.
+
+Once you determine that, creating the pseudocode will be similar to jotting
+down your thoughts and ideas in a structured code-like form.
+
+The advantage of pseudocode is: It doesn’t have to compile; it doesn’t have
+to be strict. It doesn’t even need to be formal. As long as it makes sense to
+you, your pseudocode is “*good enough*”.
+
+Here’s a few starting points for the aforementioned payroll system:
+
+employees
+  name, surname, title, hourlyWage
+
+employee_work_hours
+   emp_id, start_time, end_time
+
+
+computeSalary(empId, beginTime, endTime)
+  // find employee with empId
+  e := employees.findById(empId)
+
+  if !e => throw error;
+
+  // find work hour entries for that employee in this interval
+  result = findWorkHours(empId, beginTime, endTIme)
+            where findWorkHours() is »
+              list := []
+                :: for every entry in employee_work_hours
+                           where time is between beginTime and endtime
+                      list.append(entry.endTime - entry.startTime)
+                   next
+                // sum all of the time delta
+              return list.sum();
+
+   return result
+ end:computeSalary
+
+Other functions that you might want to implement:
+  createEmployee()
+  deleteEmployee()
+  setEmployeeSalary()
+  updateEmployee()
+  findEmployee()
