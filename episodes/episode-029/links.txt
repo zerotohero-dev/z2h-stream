@@ -1,0 +1,18 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
+* https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+* https://insomnia.rest/
+* https://httpie.io/
+* https://academy.zerotohero.dev/community/life
+* https://gist.github.com/coryhouse/b7ff5e6d1e41b762c35b
+* https://medium.com/yld-blog/using-npm-pre-and-post-hooks-d89dcf2d86cf
