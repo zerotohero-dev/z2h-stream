@@ -1,0 +1,18 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://www.winamp.com/
+* https://chatterino.com/
+* https://golang.org/pkg/container/list/
+* https://www.elgato.com/en/gaming/stream-deck
+* https://github.com/zerotohero-dev/z2h-cli
+* https://github.com/urfave/cli/blob/master/docs/v2/manual.md
+* https://github.com/axios/axios
