@@ -1,0 +1,20 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://www.base64-image.de/
+* https://en.wikipedia.org/wiki/Cycle_detection#Floyd's_Tortoise_and_Hare
+* https://medium.com/jerry-coding/floyd-cycle-detection-algorithm-7504640643bc
+* https://remarkable.com/
+* https://tools.ietf.org/html/rfc7578
+* https://github.com/request/request
+* https://github.com/axios/axios
+* https://github.com/node-fetch/node-fetch
+* https://github.com/form-data/form-data

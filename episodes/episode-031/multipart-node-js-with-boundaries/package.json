@@ -1,0 +1,14 @@
+{
+  "name": "multipart",
+  "version": "0.5.0",
+  "description": "Multipart file upload in Node",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}

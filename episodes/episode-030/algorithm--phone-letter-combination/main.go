@@ -63,7 +63,6 @@ func combine(numbers []int) []string {
 		v := dequeue(*queue)
 
 		found := len(v) == len(numbers)
-
 		if found {
 			result = append(result, v)
 
