@@ -1,3 +1,24 @@
+Hi there 🙋,
+
+This is an ad-hoc log of what topics we have covered in [**ZeroToHero** live
+streams](https://twitch.tv/ZeroToHeroDev), and what’s coming up next.
+
+I update this log after the end of each stream.
+
+My current schedule is (*all times are Pacific*):
+
+* Tuesday, 6pm-7:30pm
+* Thursday, 6pm-7:30pm
+* Sunday, 12pm-1:30pm
+
+[Follow me on **Twitch** to get notified as soon as I’m 
+online](https://twitch.tv/ZeroToHeroDev)
+
+Enjoy, and may the source be with you 🦄,
+
+Volkan.
+
+```
 ✨ Episode 033 (2020-11-19)
   📂 ZeroToHero Platform 
     🐞 /videos API is not returning video URLs to authenticated users.
@@ -26,7 +47,7 @@
 	  🦆 move closed AMA topics to z2h academy
 	  🦆 https://github.com/v0lkan/ama/issues/9
 	  🦆 https://volkan.io
-
+```
 🔻❗🔰
 🔶🔸🔷🔹
 💭🗯💬🗨
