@@ -42,11 +42,11 @@ Volkan.
   📡 Overwiew current z2h AWS WAF settings
   ❓ domains to make use of: bytesized.tv, zerotohero.tv, o2js.com              
   🌊 web pages to update:
-	  🦆 https://academy.zerotohero.dev/community/volkan--uses
-	  🦆 a write-up about my streaming setup
-	  🦆 move closed AMA topics to z2h academy
-	  🦆 https://github.com/v0lkan/ama/issues/9
-	  🦆 https://volkan.io
+    🦆 https://academy.zerotohero.dev/community/volkan--uses
+    🦆 a write-up about my streaming setup
+    🦆 move closed AMA topics to z2h academy
+    🦆 https://github.com/v0lkan/ama/issues/9
+    🦆 https://volkan.io
 ```
 🔻❗🔰
 🔶🔸🔷🔹
