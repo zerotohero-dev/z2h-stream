@@ -1,0 +1,17 @@
+{
+  "name": "testing-pubnub",
+  "version": "1.0.0",
+  "description": "testing-pubnub",
+  "type": "module",
+  "main": "pubnub.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "pubnub": "^4.29.9"
+  }
+}

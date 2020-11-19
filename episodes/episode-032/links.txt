@@ -1,0 +1,15 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://golang.org/pkg/container/list/
+* https://golang.org/pkg/container/ring/
+* https://www.pubnub.com/
+* https://en.wikipedia.org/wiki/Cycle_detection
