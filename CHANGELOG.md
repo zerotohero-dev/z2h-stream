@@ -18,12 +18,26 @@ Enjoy, and may the source be with you 🦄,
 
 Volkan.
 
+
 ```
+🐞 zhh-progress is not building on edge after dependency update
+🐞 zhh-mailer is not building on edge after dependency update
+🐞 zhh-idm is not building on edge after dependency update
+🐞 zhh-crypo is not building on edge after dependency update
+🐞 Login operation in the recent staging is not working for
+staging.zerotohero.dev 
+💁 I need more backlog items, in case I run out of items to cover in the
+session.
+
 ✨ Episode 033 (2020-11-19)
   📂 ZeroToHero Platform 
-    🐞 /videos API is not returning video URLs to authenticated users.
+    🔍🐞 Review the new cache implementation of the ZeroToHero video endpoints.
+[x]
+    🔨 Command-Query separation examples.
+  📂 App of the Day 
+    🪀 kroki: https://kroki.io/ [x]
   📂 Code Challenge
-    🧩 Linked List `PushBack` algorithm review
+    🧩 Linked List `PushBack` algorithm review [x]
   📂 Refactoring Time
     🔨 Refactoring ZeroToHero Go services
 
@@ -41,11 +55,16 @@ Volkan.
   🔬 study.zerotohero.dev
   📡 Overwiew current z2h AWS WAF settings
   ❓ domains to make use of: bytesized.tv, zerotohero.tv, o2js.com              
+  ❓ maybe move the z2h team to Discord too. 
   🌊 web pages to update:
     🦆 https://academy.zerotohero.dev/community/volkan--uses
     🦆 a write-up about my streaming setup
     🦆 move closed AMA topics to z2h academy
     🦆 https://github.com/v0lkan/ama/issues/9
     🦆 https://volkan.io
-```
+  🧹Process IA writer + MS Todos + reMarkable
 
+✨ Links 
+  🌠 https://cs50.harvard.edu/x/2020/
+```
+r
