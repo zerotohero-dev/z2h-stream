@@ -20,24 +20,38 @@ Volkan.
 
 
 ```
-🐞 zhh-progress is not building on edge after dependency update
-🐞 zhh-mailer is not building on edge after dependency update
-🐞 zhh-idm is not building on edge after dependency update
-🐞 zhh-crypo is not building on edge after dependency update
-🐞 Login operation in the recent staging is not working for
-staging.zerotohero.dev 
+Episode 033 Link Queue
+https://twitter.com/linkibol/status/1329524008174305282
+https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
+https://www.shure.com/en-US/products/microphones/sm7b
+https://www.audio-technica.com/en-us/at2020
+https://kroki.io/
+
 💁 I need more backlog items, in case I run out of items to cover in the
 session.
 
+  📂 Bug Bash
+		🐞 z2h-web there is a hard-coded api.zerotohero.dev link, it should be
+       dynamically created based on the build-time env configuration instead.
+		🐞 z2h-progress is not building on edge after dependency update
+		🐞 z2h-mailer is not building on edge after dependency update
+		🐞 z2h-idm is not building on edge after dependency update
+		🐞 z2h-crypo is not building on edge after dependency update
+		🐞 Login operation in the recent staging is not working for
+		   staging.zerotohero.dev 
+  📂 Development Environment Setup 
+    🔨 Rename all of the “master” branches as “main”.
+
+✨ Episode 034 (2020-11-21)
+
 ✨ Episode 033 (2020-11-19)
   📂 ZeroToHero Platform 
-    🔍🐞 Review the new cache implementation of the ZeroToHero video endpoints.
-[x]
+    🐞 Review the new cache implementation of the ZeroToHero video endpoints.
     🔨 Command-Query separation examples.
   📂 App of the Day 
-    🪀 kroki: https://kroki.io/ [x]
+    🪀 kroki: https://kroki.io/ 
   📂 Code Challenge
-    🧩 Linked List `PushBack` algorithm review [x]
+    🧩 Linked List `PushBack` algorithm review
   📂 Refactoring Time
     🔨 Refactoring ZeroToHero Go services
 
