@@ -19,109 +19,44 @@ Enjoy, and may the source be with you 🦄,
 Volkan.
 
 
+
+
+
+
 ```
-Episode 033 Link Queue
-https://twitter.com/linkibol/status/1329524008174305282
-https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
-https://www.shure.com/en-US/products/microphones/sm7b
-https://www.audio-technica.com/en-us/at2020
-https://kroki.io/
+✨ ZeroToHero.dev High-Level Top Three 
+  🔥 There are build errors and login issues on staging.
+  🔥 Update volkan.io to reflect recent stuff.
+  🔥 Catch up with the lesson notes.
 
-💁 I need more backlog items, in case I run out of items to cover in the
-session.
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
+JS Time:
+  - CSV to array converter
+  - CSV to JSON converter
+  - function composition
 
-
----
-💁 tl:dr;
-   I’m renaming all my `master` branches to `main` branches.
----
-
-
-Guess, I’ll call it a night.
-Putting kids to bed will take “forever” and then I’ll likely be
-exhausted AF.
-Thanks everyone for joining in.
-Have a good day,
-and may the source be with you 🦄.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----------
-Okay, I’m back.
-
-I’m plannig to fix as many bugs from the below bucket as I can tonight.
-^ but even before that I want to do something:
-something that I had been planning for a long time but deferring as “grunt
-work”.
-I will rename all of the `master` branches in all zerotohero.dev repos as
-`main`.
-^ That will be a better and more inclusive name for the branch.
-Everything starts with the language: You change the language, you change people.
-Language is powerful — Ideas “are” powerful.
-So let’s get this thing rolling.
-
---
-I’ll also back up my projects folders -- 
-just in case I make a level8 error :)
---
-Action plan:
-For every repo I have… I’ll commit any pending local changes, do the merge 
-from edge to master. delete edge branches (that’s another story) -- and then
-do the rename.
-
-I'll also have to update my ci/cd scripts. so it's not something straighforward.
-
-
-
-
-My camera and mic will be off. I’ll be monitoring the chat.
-
+✨ Work in Progress
   📂 Bug Bash
-		🐞 z2h-web there is a hard-coded api.zerotohero.dev link, it should be
+🔳  🐞 z2h-web there is a hard-coded api.zerotohero.dev link, it should be
        dynamically created based on the build-time env configuration instead.
-		🐞 z2h-progress is not building on edge after dependency update
-		🐞 z2h-mailer is not building on edge after dependency update
-		🐞 z2h-idm is not building on edge after dependency update
-		🐞 z2h-crypo is not building on edge after dependency update
-		🐞 Login operation in the recent staging is not working for
+🔳  🐞 z2h-progress is not building on edge after dependency update
+🔳  🐞 z2h-mailer is not building on edge after dependency update
+🔳  🐞 z2h-idm is not building on edge after dependency update
+🔳  🐞 z2h-crypo is not building on edge after dependency update
+🔳  🐞 Login operation in the recent staging is not working for
 		   staging.zerotohero.dev 
-  📂 Development Environment Setup 
-    🔨 Rename all of the “master” branches as “main”.
-    🔨 Get rid of the `edge` branch; use proper tagging instead. 
-
-
-
-
-
-
-
-
-
-
-
+  📂 DevOps Time 
+🔳  📡 Send an email when abnormal traffic on cloudfront.
+✅🔳
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 ✨ Episode 034 (2020-11-21)
+  📂 Development Environment Setup 
+    🔨 Rename all of the `master` branches as `main`.
+    🔨 Get rid of the `edge` branch; use proper tagging instead.
 
---------------------------------------------------------------------------------
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 ✨ Episode 033 (2020-11-19)
   📂 ZeroToHero Platform 
@@ -134,7 +69,7 @@ My camera and mic will be off. I’ll be monitoring the chat.
   📂 Refactoring Time
     🔨 Refactoring ZeroToHero Go services
 
---------------------------------------------------------------------------------
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 ✨ Episode 032 (2020-11-17)
   📂 ZeroToHero Platform 
@@ -144,19 +79,16 @@ My camera and mic will be off. I’ll be monitoring the chat.
   📂 Practice Time
     🚀 Using PubNub to trigger a remote deployment 
 
---------------------------------------------------------------------------------
-
-✨ ZeroToHero.dev High-Level Top Three 
-  🔥 There are build errors and login issues on staging.
-  🔥 Finalize the existing lesson notes.
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 ✨ Backlog 
   🧩 BFS / DFS in trees and graphs
   🧩 Finding the “minimum cut” in a flow graph 
   🚀 create a mechanism to disable cloudfront if traffic is abnormally high.
+  🚀 edit code in browser and build, execute, run tests in ECS. 
+        (run) -> save all code to user’s remove env; then execute it there.
   🚀 have a non-cloudfront ec2-based backup option for static content. 
   🚀 enable service workers. 
-
   🔬 study.zerotohero.dev
   📡 Overwiew current z2h AWS WAF settings
   ❓ domains to make use of: bytesized.tv, zerotohero.tv, o2js.com              
@@ -170,6 +102,7 @@ My camera and mic will be off. I’ll be monitoring the chat.
   🦆 a write-up about my streaming setup
   🦆 move closed AMA topics to z2h academy
   🦆 https://github.com/v0lkan/ama/issues/9
+  🦆 @@content_to_update in Obsidian 
 
 ✨ Personal Organization 
   🧹 Process IA writer + MS Todos + reMarkable
