@@ -18,40 +18,74 @@ Enjoy, and may the source be with you 🦄,
 
 Volkan.
 
-
-
-
-
-
 ```
 ✨ ZeroToHero.dev High-Level Top Three 
   🔥 There are build errors and login issues on staging.
-  🔥 Update volkan.io to reflect recent stuff.
   🔥 Catch up with the lesson notes.
+  🔥 Update the notes and source of the recent episode and
+     clean-up this file. 
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-JS Time:
-  - CSV to array converter
-  - CSV to JSON converter
-  - function composition
-
 ✨ Work in Progress
+  📂 JavaScript Practice 
+    ☕ CSV-to-JSON Converter
+      📋 Unfinished CSV-to-JSON converter from the former episode:
+         const csvToJson = (csvText) => {
+           const trimmed = csvText.trim();
+           const endIndex = trimmed.indexOf('\n');
+           const headerText = trimmed.slice(0, endIndex);
+           const headers = headerText.split(byComma);
+           return {headers};
+         };
+    ☕ Function Composition
+  📂 DevOps Time 
+🔳  📡 Send an email when abnormal traffic on cloudfront.
+🔳  📡 The build pipeline for volkan.io is broken.
+🔳  📡 Add far future expires headers to bundled assets.
+       For that:
+          - the generated assets should have uniqe names.
+          - we should **NOT** cache index.html on s3 (use CloudFront cache defauls)
+🔳  📡 Use service workers (z2h and academy) 
+       You’ll also need a kill switch.
+         HTTP GET /version.txt
+         if what you get does not match what you have, run this:
+         navigator.serviceWorker.getRegistrations().then(function(registrations) {
+           for(let registration of registrations) {registration.unregister()} 
+         })
+         Other references:
+           https://create-react-app.dev/docs/making-a-progressive-web-app/        
+           https://stackoverflow.com/questions/33704791/how-do-i-uninstall-a-service-worker
+           https://stackoverflow.com/questions/33986976/how-can-i-remove-a-buggy-service-worker-or-implement-a-kill-switch/38980776 
+           https://www.oreilly.com/library/view/building-progressive-web/9781491961643/ch04.html#section_updating_the_sw
+🔳  📡 z2h: there is a danglng `eap-details` file on s3.
+🔳  📡 z2h: deployment should clean the bucket entirely before pushing new
+       stuff. 
   📂 Bug Bash
 🔳  🐞 z2h-web there is a hard-coded api.zerotohero.dev link, it should be
        dynamically created based on the build-time env configuration instead.
 🔳  🐞 z2h-progress is not building on edge after dependency update
 🔳  🐞 z2h-mailer is not building on edge after dependency update
 🔳  🐞 z2h-idm is not building on edge after dependency update
-🔳  🐞 z2h-crypo is not building on edge after dependency update
 🔳  🐞 Login operation in the recent staging is not working for
-		   staging.zerotohero.dev 
-  📂 DevOps Time 
-🔳  📡 Send an email when abnormal traffic on cloudfront.
+       staging.zerotohero.dev 
+
 ✅🔳
+
+✨ Thanksgiving Break 🦃  
+  🏡 Update volkan.io to reflect recent stuff.
+
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-✨ Episode 034 (2020-11-21)
+✨ Episode 035 (2020-11-22)
+  📂 ZeroToHero Platform 
+    🐞 z2h-crypo is not building on edge after dependency update
+  📂 JavaScript Nuggests
+    ☕ Implementing a CSV-to-Array converter.
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+✨ Episode 034 (2020-11-19)
   📂 Development Environment Setup 
     🔨 Rename all of the `master` branches as `main`.
     🔨 Get rid of the `edge` branch; use proper tagging instead.
@@ -90,7 +124,7 @@ JS Time:
   🚀 have a non-cloudfront ec2-based backup option for static content. 
   🚀 enable service workers. 
   🔬 study.zerotohero.dev
-  📡 Overwiew current z2h AWS WAF settings
+  📡 Overwiew current z2h AWS WAF settings.
   ❓ domains to make use of: bytesized.tv, zerotohero.tv, o2js.com              
   ❓ maybe move the z2h team to Discord too.
   ⌛ when academy is gatsbified:
