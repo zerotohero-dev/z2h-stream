@@ -19,7 +19,8 @@ Enjoy, and may the source be with you 🦄,
 Volkan.
 
 ```
-✨ ZeroToHero.dev High-Level Top Three 
+✨ ZeroToHero.dev High-Level Top Three
+
   🔥 Catch up with the lesson notes.
   🔥 Complete missing video lessons. 
   🔥 Update the notes and source of the recent episode and
@@ -27,7 +28,8 @@ Volkan.
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-✨ Work in Progress 
+✨ Work in Progress
+
   🚀 Academy needs navigation (I) 
   🚀 Gatsby work (O)
   🚀 Lower thirds (O)
@@ -36,7 +38,7 @@ Volkan.
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-✨ Backlog 
+✨ Backlog
   🚀 We need a feedback/troubleshooting docs system for z2h.
   🚀 create a mechanism to disable cloudfront if traffic is abnormally high.
   🚀 edit code in browser and build, execute, run tests in ECS. 
