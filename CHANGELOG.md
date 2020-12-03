@@ -27,6 +27,14 @@ Volkan.
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
+✨ Work in Progress 
+  🚀 Academy needs navigation (I) 
+  🚀 Gatsby work (O)
+  🚀 Lower thirds (O)
+  🚀 Design system (H)
+  🚀 Flicker (I)
+ 
+
 ✨ Backlog 
   🚀 We need a feedback/troubleshooting docs system for z2h.
   🚀 create a mechanism to disable cloudfront if traffic is abnormally high.
@@ -78,6 +86,10 @@ Volkan.
   🧩 BFS / DFS in trees and graphs
 
 ✨ Work in Progress
+  📂 Logic
+     ❓ Curry’s Paradox
+        https://en.wikipedia.org/wiki/Curry%27s_paradox
+				https://plato.stanford.edu/entries/curry-paradox/
   📂 Miscellaneous
      🌌 Create a higlight from the last GRIS game that you played.
      🌌 Photo download time
@@ -98,34 +110,43 @@ Volkan.
          };
     ☕ Function Composition
   📂 DevOps Time 
-🔳  📡 Send an email when abnormal traffic on cloudfront.
-🔳  📡 The build pipeline for volkan.io is broken.
-🔳  📡 Add far future expires headers to bundled assets.
+    📡 The build pipeline for volkan.io is broken.
+    📡 Add far future expires headers to bundled assets.
        For that:
           - the generated assets should have uniqe names.
           - we should **NOT** cache index.html on s3 (use CloudFront cache defauls)
-🔳  📡 Use service workers (z2h and academy) 
+    📡 Use service workers (z2h and academy) 
        You’ll also need a kill switch.
     📡 z2h: there is a danglng `eap-details` file on s3.
-🔳  📡 z2h: deployment should clean the bucket entirely before pushing new
+    📡 z2h: deployment should clean the bucket entirely before pushing new
        stuff. 
-    💄 z2h and academy needs footers (for credits, disclaimers, and such). 
-
     📡 Make deployment more granular, I should be able to deploy a single 
+    💄 z2h and academy needs footers (for credits, disclaimers, and such). 
        service only.
-
-    🚀 Add version info to deployed apps. z2h-app-stg@1.0.1 using z2h-api-stg@1.1.0
+    📡 Add version info to deployed apps. z2h-app-stg@1.0.1 using z2h-api-stg@1.1.0
        to the footer. As in consume: /api/meta/v1/info {health:{}, readiness:{}, versions:{}}
   📂 Apps to Discuss
     🛸 Duet (https://www.duetdisplay.com)
+  📂 DevOps 
+    📡 Track deployments https://app.honeybadger.io/onboarding/deploy
+    📡 Run deployment commands using pubnub. {action:'exec', command:
+       'pssh-build-all-prod'} 
+    📡  Upload source maps to the badger during build
+       https://docs.honeybadger.io/lib/javascript/guides/using-source-maps.html 
+  📂 Ideas 
+    💭 Every Sunday; office hours + an algorithm question or a system design topic. 
+    💭 zerotohero.tv: a place that has all of the episodes in a clean, navigable
+       format.
   📂 Bug Bash
 		🐞 academy: sort order (client side)
-		🐞 academy: api response section and lesson ids are string, they should be nubmers.
+		🐞 academy: api response section and lesson ids are string, they should be 
+       numbers.
 		🐞 academy: api lesson lists’s response is not sorted (server-side)
     🐞 `LessonProgress` have sectionId and lessonId as strings, they should
         have been numbers.
     🐞 in free mode don’t call progress api. if the user does not have a
        matching course, calling progress will err out.
+    🧪 create z2h api tests.
     🚀 academy: add syntax highlighting 
     🚀 academy: back to index link at the bottom of the articles.
     🚀 check all service code and notify important errors:
@@ -133,11 +154,14 @@ Volkan.
        or maybe create a generic error handler.
     🚀 Add status indicator to the footer of the app.
     🦆 Add legal stuff etc to the footer of the app too.
-    📡 Track deployments https://app.honeybadger.io/onboarding/deploy
-    📡 Run deployment commands using pubnub. {action:'exec', command:
-       'pssh-build-all-prod'} 
+    🦆 Update volkan_uses + create a streaming setup doc. 
+    🦆 Update the runbooks: anonymous use, free user, paid user, user with
+       invalid course.
     🚀 create a dev `yarn start` that does not include HoneyBadger registration.
        do this for all static web apps under z2h umbrella.
+
+CRA is not working on academy for some reasons `yarn start:win` fails.
+http://www.math.niu.edu/~richard/Math101/implies.pdf
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -152,8 +176,12 @@ Volkan.
   📂 Docs
     🏡 Update volkan.io to reflect recent stuff.
   📂 DevOps
+    📡 Send an email when abnormal traffic on cloudfront.
     📡 create s3/route53/etc for community.zerotohero.dev
     📡 push the new “academy” there. 
+    📡 Mailgun IP Whitelisting
+    📡 Only exposing stripe test api keys. 
+    📡 Set elastic IPs to the mailgun client edge nodes.
   📂 Features
     🚀 Replace ASCII-art in the lesson notes with proper diagrams and images. 
     🚀 implement the pubnub deployment pipeline 
