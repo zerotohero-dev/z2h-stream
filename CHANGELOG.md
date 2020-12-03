@@ -33,7 +33,8 @@ Volkan.
   🚀 Lower thirds (O)
   🚀 Design system (H)
   🚀 Flicker (I)
- 
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 ✨ Backlog 
   🚀 We need a feedback/troubleshooting docs system for z2h.
@@ -85,11 +86,11 @@ Volkan.
   🧩 Minimum cut in a maximum flow
   🧩 BFS / DFS in trees and graphs
 
-✨ Work in Progress
+✨ Things to Cover in the Next Episodes
   📂 Logic
      ❓ Curry’s Paradox
         https://en.wikipedia.org/wiki/Curry%27s_paradox
-				https://plato.stanford.edu/entries/curry-paradox/
+        https://plato.stanford.edu/entries/curry-paradox/
   📂 Miscellaneous
      🌌 Create a higlight from the last GRIS game that you played.
      🌌 Photo download time
@@ -138,10 +139,10 @@ Volkan.
     💭 zerotohero.tv: a place that has all of the episodes in a clean, navigable
        format.
   📂 Bug Bash
-		🐞 academy: sort order (client side)
-		🐞 academy: api response section and lesson ids are string, they should be 
+    🐞 academy: sort order (client side)
+    🐞 academy: api response section and lesson ids are string, they should be 
        numbers.
-		🐞 academy: api lesson lists’s response is not sorted (server-side)
+    🐞 academy: api lesson lists’s response is not sorted (server-side)
     🐞 `LessonProgress` have sectionId and lessonId as strings, they should
         have been numbers.
     🐞 in free mode don’t call progress api. if the user does not have a
