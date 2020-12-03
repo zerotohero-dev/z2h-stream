@@ -88,11 +88,12 @@ Volkan.
   🧩 Minimum cut in a maximum flow
   🧩 BFS / DFS in trees and graphs
 
-✨ Things to Cover in the Next Episodes
+✨ Things to Cover in the Next Episodes (Candidate)
   📂 Logic
      ❓ Curry’s Paradox
-        https://en.wikipedia.org/wiki/Curry%27s_paradox
-        https://plato.stanford.edu/entries/curry-paradox/
+        📚 https://en.wikipedia.org/wiki/Curry%27s_paradox
+        📚 https://plato.stanford.edu/entries/curry-paradox/
+        📚 http://www.math.niu.edu/~richard/Math101/implies.pdf
   📂 Miscellaneous
      🌌 Create a higlight from the last GRIS game that you played.
      🌌 Photo download time
@@ -163,8 +164,10 @@ Volkan.
     🚀 create a dev `yarn start` that does not include HoneyBadger registration.
        do this for all static web apps under z2h umbrella.
 
-CRA is not working on academy for some reasons `yarn start:win` fails.
-http://www.math.niu.edu/~richard/Math101/implies.pdf
+  📂 Chores
+    🧹 Clean up the house first. 👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈
+
+✨ This Episodes
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
