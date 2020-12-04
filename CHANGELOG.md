@@ -45,6 +45,7 @@ This document has two main sections.
   🚀 Lower thirds (On)
   🚀 Design system (Hz)
   🚀 Flicker (Il)
+  🚀 Discord Bot (Il)  
 ```
 
 ## ZeroToHero Stream
