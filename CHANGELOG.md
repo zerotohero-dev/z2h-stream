@@ -1,7 +1,5 @@
 ##  About This Changelog
 
-Hello World, Hello Stars, Hello Universe 🦄.
-
 Hi there 🙋,
 
 🗻 This is an ad-hoc log of what topics we have covered in [**ZeroToHero** live
@@ -36,30 +34,23 @@ This document has two main sections.
 
 ```
 ✨ ZeroToHero.dev High-Level Top Three
-
   🔥 Catch up with the lesson notes.
   🔥 Complete missing video lessons. 
   🔥 Update the notes and source of the recent episode and
      clean-up this file. 
-
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
 ✨ Work in Progress
-
   🚀 Academy needs navigation (I) 
   🚀 Gatsby work (O)
   🚀 Lower thirds (O)
   🚀 Design system (H)
   🚀 Flicker (I)
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 ```
 
 ## ZeroToHero Stream
 
 ```
 ✨ Backlog
-
   🚀 We need a feedback/troubleshooting docs system for z2h.
   🚀 create a mechanism to disable cloudfront if traffic is abnormally high.
   🚀 edit code in browser and build, execute, run tests in ECS. 
@@ -74,7 +65,6 @@ This document has two main sections.
     📄 Move some of the “conventions” docs you have as tips/articles to academy. 
 
 ✨ Web Pages to Update
-
   🦆 z2h needs a “credits” page for icons we use, technologies we use, and also
      core contributors. 
      Related: z2h needs a “footer”.
@@ -90,18 +80,15 @@ This document has two main sections.
      or WSL.
 
 ✨ Personal Organization 
-
   🧹 Process IA writer + MS Todos + reMarkable
 
 ✨ ZeroToHero Queue
-
    🦄 stripe webhook integration 
    🦄 parallelize vimeo stream source API calls.
    🦄 write tests for the API endpoints. (maybe a separate repo for that)
       to be run before each deployment.
 
 ✨ Use Case Queue
-
    🚀 Creating a GitHub action using Go or Node
    🚀 Animation with React Spring
 
@@ -114,7 +101,6 @@ This document has two main sections.
   🧩 BFS / DFS in trees and graphs
 
 ✨ Things to Cover in the Next Episodes (Candidate)
-
   📂 Logic
      ❓ Curry’s Paradox
         📚 https://en.wikipedia.org/wiki/Curry%27s_paradox
@@ -194,8 +180,6 @@ This document has two main sections.
     🧹 Clean up the house first. 👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈
 
 ✨ Current Episode (Episode 036) WIP 
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 ✨ Episode 036 (2020-12-08)
 
