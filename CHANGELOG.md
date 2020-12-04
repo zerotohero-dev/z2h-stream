@@ -53,7 +53,8 @@ Volkan.
   ⌛ when academy is gatsbified:
     📄 Move some of the “conventions” docs you have as tips/articles to academy. 
 
-✨ Web Pages to Update 
+✨ Web Pages to Update
+
   🦆 z2h needs a “credits” page for icons we use, technologies we use, and also
      core contributors. 
      Related: z2h needs a “footer”.
