@@ -43,7 +43,7 @@ This document has two main sections.
   🚀 Academy needs navigation (I) 
   🚀 Gatsby work (O)
   🚀 Lower thirds (O)
-  🚀 Design system (H)
+  🚀 Design system (Hz)
   🚀 Flicker (I)
 ```
 
