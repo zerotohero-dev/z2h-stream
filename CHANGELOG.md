@@ -27,8 +27,8 @@ This document has two main sections.
 * “*Team ZeroToHero*” is relevant to our loosely-coupled, highly-effective 
   ZeroToHero core team.
 * “*ZeroToHero Stream*” is mostly relevant to me, to organize my thoughts
-  about what to cover in the next session, and it also serves as a 
-  timestamped log of what we have covered so far.
+  about what to cover in the next session. 
+    * This section also serves as a timestamped log of what we have covered so far.
 
 ## Team ZeroToHero
 
