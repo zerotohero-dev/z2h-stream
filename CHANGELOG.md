@@ -40,11 +40,11 @@ This document has two main sections.
      clean-up this file. 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 ✨ Work in Progress
-  🚀 Academy needs navigation (I) 
-  🚀 Gatsby work (O)
-  🚀 Lower thirds (O)
+  🚀 Academy needs navigation (Il) 
+  🚀 Gatsby work (On, Ha)
+  🚀 Lower thirds (On)
   🚀 Design system (Hz)
-  🚀 Flicker (I)
+  🚀 Flicker (Il)
 ```
 
 ## ZeroToHero Stream
