@@ -1,3 +1,7 @@
+##  About This Changelog
+
+Hello World, Hello Stars, Hello Universe 🦄.
+
 Hi there 🙋,
 
 🗻 This is an ad-hoc log of what topics we have covered in [**ZeroToHero** live
@@ -14,9 +18,21 @@ streams](https://twitch.tv/ZeroToHeroDev), and what’s coming up next.
 💡 [Follow me on **Twitch** to get notified as soon as I’m 
 online](https://twitch.tv/ZeroToHeroDev).
 
-Enjoy, and may the source be with you 🦄,
+## The Structure of This Document
+
+This document has two main sections.
+
+* “*Team ZeroToHero*” is relevant to our loosely-coupled, highly-effective 
+  ZeroToHero core team.
+* “*ZeroToHero Stream*” is mostly relevant to me, to organize my thoughts
+  about what to cover in the next session, and it also serves as a 
+  timestamped log of what we have covered so var.
+
+Enjoy it all, and may the source be with you 🦄,
 
 Volkan.
+
+## Team ZeroToHero
 
 ```
 ✨ ZeroToHero.dev High-Level Top Three
@@ -37,7 +53,11 @@ Volkan.
   🚀 Flicker (I)
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+```
 
+## ZeroToHero Stream
+
+```
 ✨ Backlog
 
   🚀 We need a feedback/troubleshooting docs system for z2h.
