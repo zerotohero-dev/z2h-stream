@@ -39,6 +39,7 @@ Volkan.
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 ✨ Backlog
+
   🚀 We need a feedback/troubleshooting docs system for z2h.
   🚀 create a mechanism to disable cloudfront if traffic is abnormally high.
   🚀 edit code in browser and build, execute, run tests in ECS. 
@@ -68,15 +69,18 @@ Volkan.
      or WSL.
 
 ✨ Personal Organization 
+
   🧹 Process IA writer + MS Todos + reMarkable
 
 ✨ ZeroToHero Queue
+
    🦄 stripe webhook integration 
    🦄 parallelize vimeo stream source API calls.
    🦄 write tests for the API endpoints. (maybe a separate repo for that)
       to be run before each deployment.
 
 ✨ Use Case Queue
+
    🚀 Creating a GitHub action using Go or Node
    🚀 Animation with React Spring
 
@@ -89,6 +93,7 @@ Volkan.
   🧩 BFS / DFS in trees and graphs
 
 ✨ Things to Cover in the Next Episodes (Candidate)
+
   📂 Logic
      ❓ Curry’s Paradox
         📚 https://en.wikipedia.org/wiki/Curry%27s_paradox
@@ -167,7 +172,7 @@ Volkan.
   📂 Chores
     🧹 Clean up the house first. 👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈
 
-✨ This Episodes
+✨ Current Episode (Episode 036) WIP 
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -215,24 +220,15 @@ Volkan.
     🐞 z2h-progress is not building on edge after dependency update
     🐞 z2h-mailer is not building on edge after dependency update
     🐞 z2h-idm is not building on edge after dependency update
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
 ✨ Episode 035 (2020-11-22)
   📂 ZeroToHero Platform 
     🐞 z2h-crypo is not building on edge after dependency update
   📂 JavaScript Nuggests
     ☕ Implementing a CSV-to-Array converter.
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
 ✨ Episode 034 (2020-11-19)
   📂 Development Environment Setup 
     🔨 Rename all of the `master` branches as `main`.
     🔨 Get rid of the `edge` branch; use proper tagging instead.
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
 ✨ Episode 033 (2020-11-19)
   📂 ZeroToHero Platform 
     🐞 Review the new cache implementation of the ZeroToHero video endpoints.
@@ -243,9 +239,6 @@ Volkan.
     🧩 Linked List `PushBack` algorithm review
   📂 Refactoring Time
     🔨 Refactoring ZeroToHero Go services
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
 ✨ Episode 032 (2020-11-17)
   📂 ZeroToHero Platform 
     🦄 /logout API implementation
@@ -253,8 +246,5 @@ Volkan.
     🧩 Circular loop detection in a linked list 
   📂 Practice Time
     🚀 Using PubNub to trigger a remote deployment 
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
 ```
 
