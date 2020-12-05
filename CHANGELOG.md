@@ -31,7 +31,7 @@ Volkan.
 ✨ Work in Progress
 
   🚀 Academy needs navigation (I) 
-  🚀 Gatsby work (O)
+  🚀 Gatsby work (O) [outstanding PR]
   🚀 Lower thirds (O)
   🚀 Design system (H)
   🚀 Flicker (I)
@@ -56,6 +56,8 @@ Volkan.
   🦆 z2h needs a “credits” page for icons we use, technologies we use, and also
      core contributors. 
      Related: z2h needs a “footer”.
+     Related: academy needs a footer too.
+     Related: gatsby needs a footer too.
   🦆 https://academy.zerotohero.dev/community/volkan--uses
   🦆 a write-up about my streaming setup
   🦆 move closed AMA topics to z2h academy
@@ -71,6 +73,7 @@ Volkan.
   🧹 Process IA writer + MS Todos + reMarkable
 
 ✨ ZeroToHero Queue
+   🦄 “Mark as Watched” 
    🦄 stripe webhook integration 
    🦄 parallelize vimeo stream source API calls.
    🦄 write tests for the API endpoints. (maybe a separate repo for that)
@@ -89,11 +92,6 @@ Volkan.
   🧩 BFS / DFS in trees and graphs
 
 ✨ Things to Cover in the Next Episodes (Candidate)
-  📂 Logic
-     ❓ Curry’s Paradox
-        📚 https://en.wikipedia.org/wiki/Curry%27s_paradox
-        📚 https://plato.stanford.edu/entries/curry-paradox/
-        📚 http://www.math.niu.edu/~richard/Math101/implies.pdf
   📂 Miscellaneous
      🌌 Create a higlight from the last GRIS game that you played.
      🌌 Photo download time
@@ -102,17 +100,6 @@ Volkan.
      🐦 solution to rdp artifact was to use an non-microsoft-maintained RDP client.
      🐦 roller coaster + was able to get so much done + will do this at the
         last week of every month.
-  📂 JavaScript Practice 
-    ☕ CSV-to-JSON Converter
-      📋 Unfinished CSV-to-JSON converter from the former episode:
-         const csvToJson = (csvText) => {
-           const trimmed = csvText.trim();
-           const endIndex = trimmed.indexOf('\n');
-           const headerText = trimmed.slice(0, endIndex);
-           const headers = headerText.split(byComma);
-           return {headers};
-         };
-    ☕ Function Composition
   📂 DevOps Time 
     📡 The build pipeline for volkan.io is broken.
     📡 Add far future expires headers to bundled assets.
@@ -129,9 +116,8 @@ Volkan.
        service only.
     📡 Add version info to deployed apps. z2h-app-stg@1.0.1 using z2h-api-stg@1.1.0
        to the footer. As in consume: /api/meta/v1/info {health:{}, readiness:{}, versions:{}}
-  📂 Apps to Discuss
-    🛸 Duet (https://www.duetdisplay.com)
-  📂 DevOps 
+    📂 DevOps 
+    📡 Community: implement the build pipeline. 
     📡 Track deployments https://app.honeybadger.io/onboarding/deploy
     📡 Run deployment commands using pubnub. {action:'exec', command:
        'pssh-build-all-prod'} 
@@ -151,8 +137,6 @@ Volkan.
     🐞 in free mode don’t call progress api. if the user does not have a
        matching course, calling progress will err out.
     🧪 create z2h api tests.
-    🚀 academy: add syntax highlighting 
-    🚀 academy: back to index link at the bottom of the articles.
     🚀 check all service code and notify important errors:
        if err != nil {honeybadger.Notify(err)}
        or maybe create a generic error handler.
@@ -164,10 +148,32 @@ Volkan.
     🚀 create a dev `yarn start` that does not include HoneyBadger registration.
        do this for all static web apps under z2h umbrella.
 
-  📂 Chores
-    🧹 Clean up the house first. 👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈👈
-
 ✨ This Episodes
+  📂 Discord
+    🎤 Voice channel integration dry run.
+    🏦 Introducing ZeroToHero Office hours.
+  📂 Apps to Discuss
+    🛸 Duet (https://www.duetdisplay.com)
+  📂 Logic
+     ❓ Curry’s Paradox
+        📚 https://en.wikipedia.org/wiki/Curry%27s_paradox
+        📚 https://plato.stanford.edu/entries/curry-paradox/
+        📚 http://www.math.niu.edu/~richard/Math101/implies.pdf
+  📂 You Need Testing
+    🧪 create z2h api tests.
+       First a dummy test, as in the /healthz endpoint should respond with
+       a proper JSON.
+  📂 JavaScript Practice 
+    ☕ CSV-to-JSON Converter
+      📋 Unfinished CSV-to-JSON converter from the former episode:
+         const csvToJson = (csvText) => {
+           const trimmed = csvText.trim();
+           const endIndex = trimmed.indexOf('\n');
+           const headerText = trimmed.slice(0, endIndex);
+           const headers = headerText.split(byComma);
+           return {headers};
+         };
+    ☕ Function Composition
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -182,19 +188,24 @@ Volkan.
   📂 Docs
     🏡 Update volkan.io to reflect recent stuff.
   📂 DevOps
+    📡 Only allow a white-listed set of deployment commands.
+    📡 Increase the log level on the deployment daemon. 
     📡 Send an email when abnormal traffic on cloudfront.
     📡 create s3/route53/etc for community.zerotohero.dev
     📡 push the new “academy” there. 
     📡 Mailgun IP Whitelisting
     📡 Only exposing stripe test api keys. 
     📡 Set elastic IPs to the mailgun client edge nodes.
+    📡 Implement the pubnub deployment pipeline 
+    📡 Add honeybadger everywhere. 
+  📂 Agile 
+    🔍 There are code reviews that I need to complete.
   📂 Features
     🚀 Replace ASCII-art in the lesson notes with proper diagrams and images. 
-    🚀 implement the pubnub deployment pipeline 
-    🚀 add honeybadger to blog.
     🚀 Use something to report client-side errors.
-       https://www.honeybadger.io/plans/
-    🚀 Add HoneyBadger to academy.
+       https://www.honeybadger.io/
+    🎓 academy: add syntax highlighting 
+    🎓 academy: back to index link at the bottom of the articles.
   📂 Bug Bash
     🐞 academy: images are not responsive
     🐞 academy: top margin to heading
