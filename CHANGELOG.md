@@ -1,3 +1,5 @@
+##  About This Changelog
+
 Hi there 🙋,
 
 🗻 This is an ad-hoc log of what topics we have covered in [**ZeroToHero** live
@@ -18,9 +20,20 @@ Enjoy, and may the source be with you 🦄,
 
 Volkan.
 
+## The Structure of This Document
+
+This document has two main sections.
+
+* “*Team ZeroToHero*” is relevant to our loosely-coupled, highly-effective 
+  ZeroToHero core team.
+* “*ZeroToHero Stream*” is mostly relevant to me, to organize my thoughts
+  about what to cover in the next session. 
+    * This section also serves as a timestamped log of what we have covered so far.
+
+## Team ZeroToHero
+
 ```
 ✨ ZeroToHero.dev High-Level Top Three
-
   🔥 Catch up with the lesson notes.
   🔥 Complete missing video lessons. 
   🔥 Update the notes and source of the recent episode and
@@ -52,7 +65,7 @@ Volkan.
   ⌛ when academy is gatsbified:
     📄 Move some of the “conventions” docs you have as tips/articles to academy. 
 
-✨ Web Pages to Update 
+✨ Web Pages to Update
   🦆 z2h needs a “credits” page for icons we use, technologies we use, and also
      core contributors. 
      Related: z2h needs a “footer”.
@@ -226,24 +239,15 @@ Volkan.
     🐞 z2h-progress is not building on edge after dependency update
     🐞 z2h-mailer is not building on edge after dependency update
     🐞 z2h-idm is not building on edge after dependency update
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
 ✨ Episode 035 (2020-11-22)
   📂 ZeroToHero Platform 
     🐞 z2h-crypo is not building on edge after dependency update
   📂 JavaScript Nuggests
     ☕ Implementing a CSV-to-Array converter.
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
 ✨ Episode 034 (2020-11-19)
   📂 Development Environment Setup 
     🔨 Rename all of the `master` branches as `main`.
     🔨 Get rid of the `edge` branch; use proper tagging instead.
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
 ✨ Episode 033 (2020-11-19)
   📂 ZeroToHero Platform 
     🐞 Review the new cache implementation of the ZeroToHero video endpoints.
@@ -254,9 +258,6 @@ Volkan.
     🧩 Linked List `PushBack` algorithm review
   📂 Refactoring Time
     🔨 Refactoring ZeroToHero Go services
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
 ✨ Episode 032 (2020-11-17)
   📂 ZeroToHero Platform 
     🦄 /logout API implementation
@@ -264,8 +265,5 @@ Volkan.
     🧩 Circular loop detection in a linked list 
   📂 Practice Time
     🚀 Using PubNub to trigger a remote deployment 
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
 ```
 
