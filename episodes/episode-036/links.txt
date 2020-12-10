@@ -1,0 +1,19 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+
+* https://blog.golang.org/11years
+* https://golang.org/ref/spec
+* https://www.ecma-international.org/ecma-262/
+* https://brave.com/
+* https://en.wikipedia.org/wiki/Teradici
+* https://plato.stanford.edu/entries/curry-paradox/
+* http://www.sandraandwoo.com/2012/11/19/0430-software-engineering-now-with-cats/
