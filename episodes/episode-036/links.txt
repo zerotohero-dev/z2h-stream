@@ -9,11 +9,23 @@
 
 Links we shared and discussed in this episode:
 
-
-* https://blog.golang.org/11years
-* https://golang.org/ref/spec
-* https://www.ecma-international.org/ecma-262/
-* https://brave.com/
-* https://en.wikipedia.org/wiki/Teradici
+* https://github.com/microsoft/winget-cli
+* https://chocolatey.org/
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+* https://en.wikipedia.org/wiki/Composition_over_inheritance
+* https://techcrunch.com/2008/01/24/xing-acquires-turkish-networking-site-cembernet/
+* https://techcrunch.com/2020/10/26/linktree-raises-10-7m-for-its-lightweight-link-centric-user-profiles/
+* https://linktr.ee/v0lkan
+* https://stripe.com/
+* https://fishshell.com/
+* https://ohmyz.sh/
+* https://code.visualstudio.com/docs/remote/wsl
+* https://docs.microsoft.com/en-us/windows/wsl/install-win10
+* https://en.wikipedia.org/wiki/Curry%27s_paradox
 * https://plato.stanford.edu/entries/curry-paradox/
+* http://www.math.niu.edu/~richard/Math101/implies.pdf
+* https://hyper.is/
+* https://www.royalapps.com/ts/mac/features
+* https://linux.die.net/man/1/dos2unix
+* https://www.duetdisplay.com/
 * http://www.sandraandwoo.com/2012/11/19/0430-software-engineering-now-with-cats/

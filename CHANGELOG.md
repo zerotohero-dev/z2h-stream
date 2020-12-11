@@ -135,21 +135,9 @@ This document has two main sections.
        do this for all static web apps under z2h umbrella.
 
 ✨ This Episode
-  📂 Overview
-    🏖 Holiday Break in Review and my future “*no social media*” plans.
   📂 Discord
     🎤 Voice channel integration dry run.
     🏦 Introducing ZeroToHero Office hours.
-  📂 Apps to Discuss
-    🛸 Duet (https://www.duetdisplay.com)
-    💻 dos2unix
-    🖥  Royal TSX
-  📂 Logic
-     ❓ Curry’s Paradox
-        📚 https://en.wikipedia.org/wiki/Curry%27s_paradox
-        📚 https://plato.stanford.edu/entries/curry-paradox/
-        📚 http://www.math.niu.edu/~richard/Math101/implies.pdf
-        📚 https://academy.zerotohero.dev/z2hjs/sections/3/lessons/7
   📂 You Need Testing
     🧪 create z2h api tests.
        First a dummy test, as in the /healthz endpoint should respond with
@@ -157,29 +145,28 @@ This document has two main sections.
   📂 Developer Environment Setup
     🚀 Make sure you don’t use honeybadger in dev mode.
   📂 JavaScript Practice
-    ☕ CSV-to-JSON Converter
-      📋 Unfinished CSV-to-JSON converter from the former episode:
-         const csvToJson = (csvText) => {
-           const trimmed = csvText.trim();
-           const endIndex = trimmed.indexOf('\n');
-           const headerText = trimmed.slice(0, endIndex);
-           const headers = headerText.split(byComma);
-           return {headers};
-         };
+    ☕ Function Composition… But, how?
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+✨ Episode 036 (2020-12-10)
+  📂 Apps to Discuss
+    🛸 Duet (https://www.duetdisplay.com)
+    💻 dos2unix
+    🖥  Royal TSX
+  📂 Brain Twisters
+    🤔 Curry’s Paradox
+       📚 https://en.wikipedia.org/wiki/Curry%27s_paradox
+       📚 https://plato.stanford.edu/entries/curry-paradox/
+       📚 http://www.math.niu.edu/~richard/Math101/implies.pdf
+       📚 https://academy.zerotohero.dev/z2hjs/sections/3/lessons/7
+  📂 JavaScript Practice
     ☕ Function Composition
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
-✨ Episode 036 (2020-12-08)
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
-✨ Episode 035 (2020-11-22)
-  📂 ZeroToHero Platform
-    🐞 z2h-crypo is not building on edge after dependency update
-  📂 JavaScript Nuggests
-    ☕ Implementing a CSV-to-Array converter.
-
+✨ Episode 035 (2020-12-08)
+  📂 Overview
+    🏖 Holiday Break in Review and my future “*no social media*” plans.
+   📂 JavaScript Practice
+    ☕ CSV-to-JSON Converter
 ✨ Thanksgiving Break 🦃 (2020-11-26—2020-12-07)
   📂 Funsies
     📹 Create an intro video for the ZeroToHero Twitch channel.
@@ -233,11 +220,14 @@ This document has two main sections.
     🐞 z2h-progress is not building on edge after dependency update
     🐞 z2h-mailer is not building on edge after dependency update
     🐞 z2h-idm is not building on edge after dependency update
-
 ✨ Episode 034 (2020-11-19)
   📂 Development Environment Setup
     🔨 Rename all of the `master` branches as `main`.
     🔨 Get rid of the `edge` branch; use proper tagging instead.
+  📂 ZeroToHero Platform
+    🐞 z2h-crypo is not building on edge after dependency update
+  📂 JavaScript Nuggests
+    ☕ Implementing a CSV-to-Array converter.
 ✨ Episode 033 (2020-11-19)
   📂 ZeroToHero Platform
     🐞 Review the new cache implementation of the ZeroToHero video endpoints.
