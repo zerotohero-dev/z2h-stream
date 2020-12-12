@@ -145,7 +145,7 @@ A => (A => B)
 (
 but since `A` implies `A => B` (1), and since `A => B` is `!A || B` (2)
 
-If `A` is `true` then `A => B` must be `true` (via 1), 
+then, if `A` is `true` then `A => B` must be `true` (via 1), 
 and therefore `B` must be `true` (via 2)
 
 Similarly if `A` is `false`, given `A => B` must be `false` (via 1),
