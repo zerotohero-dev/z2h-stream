@@ -157,9 +157,9 @@ That means, we can reduce `A => B` to just `B`
 A => (A => B)
 ∴ A => B
 
-A => B
-A. (`A => B` and `A` are identical)
-B. (modus operandi)
+A => B                                (1)
+A. (`A => B` and `A` are identical)   (2)
+B. (modus operandi from (1) and (2))
 
 So, if `A :: A => B` then `B`.
 
