@@ -151,7 +151,7 @@ and therefore `B` must be `true` (via 2)
 Similarly if `A` is `false`, given `A => B` must be `false` (via 1),
 thus `B` must be false also (via 2).
 
-That means, when we reduce `A => B` to just `B`
+That means, we can reduce `A => B` to just `B`
 )
 
 A => (A => B)
