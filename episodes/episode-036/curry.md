@@ -158,7 +158,7 @@ A => (A => B)
 ∴ A => B
 
 A => B
-A. (we are assuming a)
+A. (we are assuming A)
 B. (modus operandi)
 
 So, if `A :: A => B` then `B`.
