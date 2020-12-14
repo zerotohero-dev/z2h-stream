@@ -98,8 +98,6 @@ const compose = (...fns) => fns.reduce(
 );
 ```
 
-Now, assume we are calling `compose(a1, c1, c2, c3, c4)`.
-
 > **Aside**
 >
 > Here all of the arguments (*`a1`, `c1`, `c2`, `c3`, `c4`*) are **function**s.
@@ -107,6 +105,8 @@ Now, assume we are calling `compose(a1, c1, c2, c3, c4)`.
 > So, unlike thre reductiono example in the beginning of this article, 
 > inside the callback of the `reduce()` function here, we are reducing **function**s,
 > **not** primitive numbers. So this, in a sense, is a “*higer order*” reduction.
+
+Now, assume we are calling `compose(a1, c1, c2, c3, c4)`.
 
 This will be equivalent to the following:
 
