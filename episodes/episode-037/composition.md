@@ -80,7 +80,7 @@ In lambda form:
 (\x -> f x) y = f y
 ```
 
-Or if you want a **JavaScript** equivalent:
+Or, if you want a **JavaScript** equivalent:
 
 ```javascript 
 ((x) => f(x))(y) ==== f(y)
