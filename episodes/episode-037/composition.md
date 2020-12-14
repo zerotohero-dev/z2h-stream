@@ -27,8 +27,8 @@ In this article, we’ll look at **how** the above function works the way it wor
 [Array.prototype.reduce()][reduce-mdn] passes through all the elements of an
 array, applies the reducer function `fn(acc, curr)` to each element.
 Where 
-* `curr` is the current element of the array,
-* and, `acc` is the return value of the reducer function in the previous step. 
+* `curr` (*a mnemonic for “the current value”*) is the current element of the array,
+* and, `acc` (*a mnemonic for “accumulator”*) is the return value of the reducer function in the previous step. 
 
 [reduce-mdn]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce "Array.prototype.reduce (MDN)"
 
@@ -59,17 +59,25 @@ Therefore, `numbers.reduce(sum)` will be equal to `21`.
 
 ## Beta Reduction
 
-**beta reduction** is a [lambda calculus][lambda-calculus] concept that 
+**Beta reduction** is a [lambda calculus][lambda-calculus] concept that 
 essentially says that applying an argument to a higher-order lambda function
 is equivalent to applying the same argument to the wrapped function inside
 the lambda expression.
+
+> **Aside**
+>
+> **Beta reduction** has **nothing** in common with the `Array.prototype.recude()` that
+> we’ve covered above.
+>
+> Well, the only thing that’s common beween them is “*beta reduction*” is also a form of
+> reduction, but they are diagonally different things otherwise.
 
 [lambda-calculus]: https://plato.stanford.edu/entries/lambda-calculus/ "Lambda Calculus"
 
 In lambda form:
 
 ```text 
-(\x -> f x) y ==== f y
+(\x -> f x) y = f y
 ```
 
 Or if you want a **JavaScript** equivalent:
@@ -90,17 +98,25 @@ const compose = (...fns) => fns.reduce(
 );
 ```
 
+> **Aside**
+>
+> Here all of the arguments (*`a1`, `c1`, `c2`, `c3`, `c4`*) are **function**s.
+>
+> So, unlike thre reduction example in the beginning of this article, 
+> inside the callback of the `reduce()` function here, we are reducing **function**s,
+> **not** primitive numbers. So this, in a sense, is a “*higer order*” reduction.
+
 Now, assume we are calling `compose(a1, c1, c2, c3, c4)`.
 
 This will be equivalent to the following:
 
 ```
-[a1,c1,c2,c3,c4].reduce(
+[a1, c1, c2, c3,c 4].reduce(
   (acc, curr) => ((...args) => acc(curr(...args)))
 )
 ```
 
-Let’s do a similar table that we did for the reducer example above:
+Let’s do a similar table that we did for the reducer example above.
 
 curr  |  acc| reduction                  |alias|
 ------|-----|----------------------------|-----|
@@ -111,23 +127,21 @@ curr  |  acc| reduction                  |alias|
 
 But, what is `a2(c2(...a))` ?
 
-Since `a2` is `(...x) => acc(curr(...x))`
+Since `a2` is `(...x) => acc(curr(...x))`,
+the above expression is equivalent to `((...x) => a1(c1(...x)))(c2(...a))`.
 
-That expression is `((...x) => a1(c1(...x)))(c2(...a))`
+Now, assume `c2(...a)` is `c2a`, `a1(c1(...x))` is `a1c1(x)`,
+then the above expression will become `((...x) => a1c1(...x))(c2a)`.
 
-Assume `c2(...a)` is `c2a`, `a1(c1(...x))` is `a1c1(x)`
+Or, even, in a simpler form: `((x) => a1c1(x))(c2a)`.
 
-Then the above expression will become `((...x) => a1c1(...x))(c2a)`.
-
-Or in even simpler form: `((x) => a1c1(x))(c2a)`
-
-which is equivalent to `a1c1(c2a)` when we do a beta reduction of `c2a`.
+Which is equivalent to `a1c1(c2a)` when we do a beta reduction on `c2a`.
 
 Which is equivalent to `a1(c1(c2a))`.
 
-Which is equivalent to `a1(c1(c2(...a)))`
+Which is equivalent to `a1(c1(c2(...a)))`.
 
-With that little segue, let’s re-paste the above table:
+With that little segue, let’s rework on the table above.
 
 curr  |acc  | reduction                   |alias|
 ------|  ---|-----------------------------|-----|
@@ -137,7 +151,7 @@ curr  |acc  | reduction                   |alias|
    "" |     | `(...a) => a2(c2(...a))`    |     |
    "" |     | `(...a) => a1(c1(c2(...a)))`|`a3` |
  
-We can apply the same reasoning to the next steps of our reduction too:
+We can apply the same reasoning to the next steps of our reduction too.
 
 curr  |acc  | reduction                                          |alias|
 ------|-----|----------------------------------------------------|-----|
@@ -151,7 +165,7 @@ curr  |acc  | reduction                                          |alias|
    "" |     | `(...a) => ((...x) => a1(c1(c2(...x))))(c3(...a))` |     |
    "" |     | `(...a) => a1(c1(c2(c3(...a))))`                   |`a4` |
 
-Let’s simplify the intermediate steps for brevity:
+Let’s remove the intermediate steps from the table above for brevity.
 
 curr  |acc  | reduction                                          |alias  |
 ------|-----|----------------------------------------------------|-------|
@@ -159,14 +173,14 @@ curr  |acc  | reduction                                          |alias  |
   `c2`| `a2`| `(...a) => a1(c1(c2(...a)))`                       |`a3`   |
   `c3`| `a3`| `(...a) => a1(c1(c2(c3(...a))))`                   |`a4`   |
 
-And follow the trend for `c4` too:
+And follow the trend for `c4` too.
 
 curr  |  acc| reduction                                          |alias  |
 ------|-----|----------------------------------------------------|-------|
   `c1`| `a1`| `(...a) => a1(c1(...a))`                           |`a2`   |
   `c2`| `a2`| `(...a) => a1(c1(c2(...a)))`                       |`a3`   |
   `c3`| `a3`| `(...a) => a1(c1(c2(c3(...a))))`                   |`a4`   |
-  `c3`| `a3`| `(...a) => a1(c1(c2(c3(c4(...a)))))`               |`a4`   |
+  `c4`| `a4`| `(...a) => a1(c1(c2(c3(c4(...a)))))`               |`a4`   |
 
 That will show that `compose(a1, c1, c2, c3, c4)` will be equivalent to
 `(...a) => a1(c1(c2(c3(c4(...a)`.
