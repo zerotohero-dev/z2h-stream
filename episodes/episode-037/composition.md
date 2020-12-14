@@ -116,7 +116,7 @@ This will be equivalent to the following:
 )
 ```
 
-Let’s do a similar table that we did for the reducer example above:
+Let’s do a similar table that we did for the reducer example above.
 
 curr  |  acc| reduction                  |alias|
 ------|-----|----------------------------|-----|
@@ -141,7 +141,7 @@ Which is equivalent to `a1(c1(c2a))`.
 
 Which is equivalent to `a1(c1(c2(...a)))`.
 
-With that little segue, let’s rework on the above table:
+With that little segue, let’s rework on the table above.
 
 curr  |acc  | reduction                   |alias|
 ------|  ---|-----------------------------|-----|
@@ -151,7 +151,7 @@ curr  |acc  | reduction                   |alias|
    "" |     | `(...a) => a2(c2(...a))`    |     |
    "" |     | `(...a) => a1(c1(c2(...a)))`|`a3` |
  
-We can apply the same reasoning to the next steps of our reduction too:
+We can apply the same reasoning to the next steps of our reduction too.
 
 curr  |acc  | reduction                                          |alias|
 ------|-----|----------------------------------------------------|-----|
@@ -165,7 +165,7 @@ curr  |acc  | reduction                                          |alias|
    "" |     | `(...a) => ((...x) => a1(c1(c2(...x))))(c3(...a))` |     |
    "" |     | `(...a) => a1(c1(c2(c3(...a))))`                   |`a4` |
 
-Let’s remove the intermediate steps from the table above for brevity:
+Let’s remove the intermediate steps from the table above for brevity.
 
 curr  |acc  | reduction                                          |alias  |
 ------|-----|----------------------------------------------------|-------|
@@ -173,7 +173,7 @@ curr  |acc  | reduction                                          |alias  |
   `c2`| `a2`| `(...a) => a1(c1(c2(...a)))`                       |`a3`   |
   `c3`| `a3`| `(...a) => a1(c1(c2(c3(...a))))`                   |`a4`   |
 
-And follow the trend for `c4` too:
+And follow the trend for `c4` too.
 
 curr  |  acc| reduction                                          |alias  |
 ------|-----|----------------------------------------------------|-------|
