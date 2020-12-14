@@ -180,7 +180,7 @@ curr  |  acc| reduction                                          |alias  |
   `c1`| `a1`| `(...a) => a1(c1(...a))`                           |`a2`   |
   `c2`| `a2`| `(...a) => a1(c1(c2(...a)))`                       |`a3`   |
   `c3`| `a3`| `(...a) => a1(c1(c2(c3(...a))))`                   |`a4`   |
-  `c3`| `a3`| `(...a) => a1(c1(c2(c3(c4(...a)))))`               |`a4`   |
+  `c4`| `a4`| `(...a) => a1(c1(c2(c3(c4(...a)))))`               |`a4`   |
 
 That will show that `compose(a1, c1, c2, c3, c4)` will be equivalent to
 `(...a) => a1(c1(c2(c3(c4(...a)`.
