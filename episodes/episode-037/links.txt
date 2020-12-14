@@ -1,0 +1,17 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://academy.zerotohero.dev/community/contact
+* https://zerotohero.dev/home
+* https://plato.stanford.edu/entries/curry-paradox/
+* https://github.com/zerotohero-dev/z2h-stream/blob/main/episodes/episode-036/curry.md
+* https://personal.utdallas.edu/~gupta/courses/apl/lambda.pdf
+* https://plato.stanford.edu/entries/lambda-calculus/

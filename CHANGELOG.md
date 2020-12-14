@@ -45,11 +45,11 @@ This document has two main sections.
 ✨ Work in Progress
 
   🚀 Academy needs navigation (I)
-  🚀 Gatsby work (O)
-  🚀 Lower thirds (O)
-  🚀 Design system (H)
-  🚀 Flicker (I)
+  🚀 Academy the new design (I)
   🚀 Discord Bot (I)
+  🚀 Gatsby work (O,Ha)
+  🚀 Lower thirds (O)
+  🚀 Design system (Hz)
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -136,7 +136,6 @@ This document has two main sections.
 
 ✨ This Episode
   📂 Discord
-    🎤 Voice channel integration dry run.
     🏦 Introducing ZeroToHero Office hours.
   📂 You Need Testing
     🧪 create z2h api tests.
@@ -146,6 +145,9 @@ This document has two main sections.
     🚀 Make sure you don’t use honeybadger in dev mode.
   📂 JavaScript Practice
     ☕ Function Composition… But, how?
+
+
+✨ Episode 037 (2020-12-13)
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
