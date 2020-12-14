@@ -165,7 +165,7 @@ curr  |acc  | reduction                                          |alias|
    "" |     | `(...a) => ((...x) => a1(c1(c2(...x))))(c3(...a))` |     |
    "" |     | `(...a) => a1(c1(c2(c3(...a))))`                   |`a4` |
 
-Let’s simplify the intermediate steps for brevity:
+Let’s remove the intermediate steps from the table above for brevity:
 
 curr  |acc  | reduction                                          |alias  |
 ------|-----|----------------------------------------------------|-------|
