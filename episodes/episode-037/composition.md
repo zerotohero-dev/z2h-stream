@@ -59,10 +59,15 @@ Therefore, `numbers.reduce(sum)` will be equal to `21`.
 
 ## Beta Reduction
 
-**beta reduction** is a [lambda calculus][lambda-calculus] concept that 
+**Beta reduction** is a [lambda calculus][lambda-calculus] concept that 
 essentially says that applying an argument to a higher-order lambda function
 is equivalent to applying the same argument to the wrapped function inside
 the lambda expression.
+
+> **Aside**
+>
+> **Beta reduction** has **nothing** in common with the `Array.prototype.recude()` that
+> we’ve covered above.
 
 [lambda-calculus]: https://plato.stanford.edu/entries/lambda-calculus/ "Lambda Calculus"
 
