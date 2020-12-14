@@ -141,7 +141,7 @@ which is equivalent to `a1c1(c2a)` when we do a beta reduction of `c2a`.
 
 Which is equivalent to `a1(c1(c2a))`.
 
-Which is equivalent to `a1(c1(c2(...a)))`
+Which is equivalent to `a1(c1(c2(...a)))`.
 
 With that little segue, let’s re-paste the above table:
 
