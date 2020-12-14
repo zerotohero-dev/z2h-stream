@@ -105,9 +105,9 @@ Let’s do a similar table that we did for the reducer example above:
 curr  |  acc| reduction                  |alias|
 ------|-----|----------------------------|-----|
   `c1`| `a1`| `(...a) => acc(curr(...a))`|     |
-      |     | `(...a) => a1(c1(...a))`   |`a2` |
+   "" |     | `(...a) => a1(c1(...a))`   |`a2` |
   `c2`| `a2`| `(...a) => acc(curr(...a))`|     |
-      |     | `(...a) => a2(c2(...a))`   |     |
+   "" |     | `(...a) => a2(c2(...a))`   |     |
 
 But, what is `a2(c2(...a))` ?
 
