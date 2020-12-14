@@ -27,8 +27,8 @@ In this article, we’ll look at **how** the above function works the way it wor
 [Array.prototype.reduce()][reduce-mdn] passes through all the elements of an
 array, applies the reducer function `fn(acc, curr)` to each element.
 Where 
-* `curr` is the current element of the array,
-* and, `acc` is the return value of the reducer function in the previous step. 
+* `curr` (*a mnemonic for “the current value”*) is the current element of the array,
+* and, `acc` (*a mnemonic for “accumulator”*” is the return value of the reducer function in the previous step. 
 
 [reduce-mdn]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce "Array.prototype.reduce (MDN)"
 
