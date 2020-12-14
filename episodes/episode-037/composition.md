@@ -90,7 +90,7 @@ We just place `y`, in place of `x` in `f(x)` and that’s all about it.
 
 ## Dissecting the `compose()` Function
 
-Let’s paste the `compose()` function here for reference:
+Let’s paste the `compose()` function here for reference.
 
 ```javascript
 const compose = (...fns) => fns.reduce(
