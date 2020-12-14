@@ -127,17 +127,15 @@ curr  |  acc| reduction                  |alias|
 
 But, what is `a2(c2(...a))` ?
 
-Since `a2` is `(...x) => acc(curr(...x))`
+Since `a2` is `(...x) => acc(curr(...x))`,
+that expression is `((...x) => a1(c1(...x)))(c2(...a))`.
 
-That expression is `((...x) => a1(c1(...x)))(c2(...a))`
+Assume `c2(...a)` is `c2a`, `a1(c1(...x))` is `a1c1(x)`;
+then the above expression will become `((...x) => a1c1(...x))(c2a)`.
 
-Assume `c2(...a)` is `c2a`, `a1(c1(...x))` is `a1c1(x)`
+Or in even simpler form: `((x) => a1c1(x))(c2a)`.
 
-Then the above expression will become `((...x) => a1c1(...x))(c2a)`.
-
-Or in even simpler form: `((x) => a1c1(x))(c2a)`
-
-which is equivalent to `a1c1(c2a)` when we do a beta reduction of `c2a`.
+Which is equivalent to `a1c1(c2a)` when we do a beta reduction of `c2a`.
 
 Which is equivalent to `a1(c1(c2a))`.
 
