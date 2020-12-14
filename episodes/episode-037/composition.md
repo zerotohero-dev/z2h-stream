@@ -68,6 +68,9 @@ the lambda expression.
 >
 > **Beta reduction** has **nothing** in common with the `Array.prototype.recude()` that
 > we’ve covered above.
+>
+> Well, the only thing that’s common beween them is “*beta reduction*” is also a form of
+> reduction, but they are diagonally different things otherwise.
 
 [lambda-calculus]: https://plato.stanford.edu/entries/lambda-calculus/ "Lambda Calculus"
 
