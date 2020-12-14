@@ -135,19 +135,20 @@ This document has two main sections.
        do this for all static web apps under z2h umbrella.
 
 ✨ This Episode
+  📂 You Need Testing
+    🧪 z2h api tests: First a dummy test, as in the
+       /healthz endpoint should respond with a proper JSON.
+  📂 Developer Environment Setup
+    🚀 Make sure you don’t use honeybadger in dev mode.
+    🚀 Academy should look at the staging db, if in staging mode.
+
+✨ Episode 037 (2020-12-13)
+  📂 JavaScript Practice
+    ☕ Function Composition… But, how?
   📂 Discord
     🏦 Introducing ZeroToHero Office hours.
   📂 You Need Testing
-    🧪 create z2h api tests.
-       First a dummy test, as in the /healthz endpoint should respond with
-       a proper JSON.
-  📂 Developer Environment Setup
-    🚀 Make sure you don’t use honeybadger in dev mode.
-  📂 JavaScript Practice
-    ☕ Function Composition… But, how?
-
-
-✨ Episode 037 (2020-12-13)
+    🧪 create z2h api tests repo.
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
