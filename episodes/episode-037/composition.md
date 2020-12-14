@@ -77,7 +77,7 @@ the lambda expression.
 In lambda form:
 
 ```text 
-(\x -> f x) y ==== f y
+(\x -> f x) y = f y
 ```
 
 Or if you want a **JavaScript** equivalent:
