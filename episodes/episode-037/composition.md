@@ -127,12 +127,12 @@ curr  |  acc| reduction                  |alias|
 
 But, what is `a2(c2(...a))` ?
 
-* (*applying beta-reduction in reverse*) `a2(c2(...a))` is equivalent to `((...x) => a2(...x))(c2(...a))`,
+* (*Applying beta-reduction in reverse*) `a2(c2(...a))` is equivalent to `((...x) => a2(...x))(c2(...a))`,
 * Since `a2(...x)` is equivalent to `a1(c1(...x))`,
   * `((...x) => a2(...x))(c2(...a))` is equivalent to `((...x) => a1(c1(...x)))(c2(...a))`.
-* Now, assume `c2(...a)` is `c2a`, `a1(c1(...x))` is `a1c1(x)`,
+* Now, assume `c2(...a)` is `c2a`, `a1(c1(...x))` is `a1c1(...x)`,
   * then `((...x) => a1(c1(...x)))(c2(...a))` will become `((...x) => a1c1(...x))(c2a)`.
-  * Or, even, in a simpler form: `((x) => a1c1(x))(c2a)`.
+  * Or, even, in a simpler form (*without losing too much rigor*): `((x) => a1c1(x))(c2a)`.
 * Which is equivalent to `a1c1(c2a)` when we do a beta reduction on `c2a`.
 * Which is equivalent to `a1(c1(c2a))`.
 * Which is equivalent to `a1(c1(c2(...a)))`.
