@@ -43,7 +43,6 @@ This document has two main sections.
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 ✨ Work in Progress
-
   🚀 Academy needs navigation (I)
   🚀 Academy the new design (I)
   🚀 Discord Bot (I)
@@ -138,13 +137,18 @@ This document has two main sections.
   📂 App of the Day
     🛸 ngrok
     🛸 pagemap https://larsjung.de/pagemap/
-    🛸  copy palette https://copypalette.app/
+    🛸 copy palette https://copypalette.app/
+  📂 Code Challenge
+    🧩 Implementing and traversing a Tree in Go
   📂 You Need Testing
     🧪 z2h api tests: First a dummy test, as in the
        /healthz endpoint should respond with a proper JSON.
   📂 Developer Environment Setup
-    🚀 Make sure you don’t use honeybadger in dev mode.
-    🚀 Academy should look at the staging db, if in staging mode.
+    🚀 Make sure you don’t use honeybadger in dev mode (z2h-web, academy-web, services).
+    🚀 Academy-web should look at the staging db, if in staging mode.
+
+✨ Episode 038 (2020-12-17)
+
 
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
