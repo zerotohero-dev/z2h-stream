@@ -134,23 +134,26 @@ This document has two main sections.
        do this for all static web apps under z2h umbrella.
 
 ✨ This Episode
+  📂 Code Challenge
+    🧩 Implementing and traversing a Tree in Go
+  📂 Bug Bash
+    🐞 Academy lesson listing sort order is incorrect.
+  📂 Developer Environment Setup
+    🚀 Make sure you don’t use honeybadger in dev mode (z2h-web, academy-web, services).
+    🚀 Academy-web should look at the staging db, if in staging mode.
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+✨ Episode 038 (2020-12-17)
   📂 App of the Day
     🛸 ngrok
     🛸 pagemap https://larsjung.de/pagemap/
     🛸 copy palette https://copypalette.app/
   📂 Code Challenge
-    🧩 Implementing and traversing a Tree in Go
+    🧩 Implement a Linked List
   📂 You Need Testing
     🧪 z2h api tests: First a dummy test, as in the
        /healthz endpoint should respond with a proper JSON.
-  📂 Developer Environment Setup
-    🚀 Make sure you don’t use honeybadger in dev mode (z2h-web, academy-web, services).
-    🚀 Academy-web should look at the staging db, if in staging mode.
-
-✨ Episode 038 (2020-12-17)
-
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 ✨ Episode 037 (2020-12-13)
   📂 JavaScript Practice

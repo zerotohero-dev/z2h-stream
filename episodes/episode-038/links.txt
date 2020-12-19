@@ -1,0 +1,21 @@
+ \
+ \\,
+  \\\,^,.,,.                    “Zero to Hero”
+  ,;7~((\))`;;,,               <zerotohero.dev>
+  ,(@') ;)`))\;;',    stay up to date, be curious: learn
+   )  . ),((  ))\;,
+  /;`,,/7),)) )) )\,,
+ (& )`   (,((,((;( ))\,
+
+Links we shared and discussed in this episode:
+
+* https://academy.zerotohero.dev/community/life
+* https://aws.amazon.com/shield
+* https://aws.amazon.com/waf/
+* https://aws.amazon.com/codecommit/
+* https://www.pubnub.com/
+* https://copypalette.app/
+* https://tailwindcss.com/docs/customizing-colors#color-palette-reference
+* https://larsjung.de/pagemap/
+* https://github.com/zerotohero-dev/z2h-stream/blob/main/episodes/episode-037/composition.md
+* https://buddy.works/
