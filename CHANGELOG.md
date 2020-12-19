@@ -135,6 +135,7 @@ This document has two main sections.
 
 ✨ This Episode
   📂 Code Challenge
+    🧩 Linked List insertion algorithm in review
     🧩 Implementing and traversing a Tree in Go
   📂 Bug Bash
     🐞 Academy lesson listing sort order is incorrect.

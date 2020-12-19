@@ -58,9 +58,9 @@ func (l *List) String() string {
 
 	for node != nil {
 		if node == l.Tail {
-			res = res + fmt.Sprintf("%+v", node.Value)
+			res = fmt.Sprintf("%s(%+v)", res, node.Value)
 		} else {
-			res = res + fmt.Sprintf("%+v -> ", node.Value)
+			res = fmt.Sprintf("%s(%+v) -> ", res, node.Value)
 		}
 		node = node.Next
 	}
