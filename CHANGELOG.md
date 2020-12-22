@@ -46,6 +46,7 @@ This document has two main sections.
   🚀 Academy needs navigation (I)
   🚀 Academy the new design (I)
   🚀 Discord Bot (I)
+  🚀 z2hjs Token validation API (V)  
   🚀 Gatsby work (O,Ha)
   🚀 Lower thirds (O)
   🚀 Design system (Hz)
